@@ -1,1 +1,23 @@
-
+{
+  "name": "doppelverse",
+  "version": "1.0.0",
+  "description": "A global community platform for matching and voting on celebrity and thematic look-alikes.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "firebase": "^11.6.1"
+    // Note: The Gemini API is accessed via fetch, so it doesn't need a specific package here.
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "next": "^14.2.3",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3"
+  },
+  "license": "Apache-2.0"
+}
