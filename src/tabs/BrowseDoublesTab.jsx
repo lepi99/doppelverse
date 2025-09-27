@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { onSnapshot, query, limit, where } from 'firebase/firestore';
 import { getCollectionRef, THEMES } from '../utils/firestoreUtils.js';
 import MatchItem from '../components/MatchItem.jsx';
+import { Typography, Box, Stack, Divider, FormControl, InputLabel, Select, MenuItem, Paper, Alert, CircularProgress } from '@mui/material';
 
 // --- Browse Community Doubles Tab Component ---
 const BrowseDoublesTab = ({ db }) => {
@@ -40,35 +41,46 @@ const BrowseDoublesTab = ({ db }) => {
     }, [db, selectedTheme]);
 
     return (
-        <div id="tab-explorer" className="container-card bg-white p-6 sm:p-8">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4 border-b pb-2">Browse Community Doubles</h2>
-            
-            <div className="mb-4">
-                <label htmlFor="explorerThemeFilter" className="block text-lg font-medium text-gray-700 mb-2">Filter by Theme</label>
-                <select 
-                    id="explorerThemeFilter" 
-                    className="w-full p-3 border border-indigo-300 rounded-lg focus:ring-indigo-500 focus:border-indigo-500"
+        <Box>
+            <Typography variant="h4" fontWeight="bold" color="text.primary" mb={2}>
+                Browse Dopples
+            </Typography>
+            <Typography variant="body1" color="text.secondary" mb={3}>
+                Explore all look-alike matches submitted by the community. Vote for your favorites or add your own!
+            </Typography>
+            <Divider sx={{ mb: 3 }} />
+
+            <FormControl fullWidth sx={{ mb: 4 }}>
+                <InputLabel id="explorerThemeFilter-label">Filter by Theme</InputLabel>
+                <Select
+                    labelId="explorerThemeFilter-label"
+                    id="explorerThemeFilter"
                     value={selectedTheme}
+                    label="Filter by Theme"
                     onChange={(e) => setSelectedTheme(e.target.value)}
                 >
-                    <option value="all">Show All Themes</option>
+                    <MenuItem value="all">Show All Themes</MenuItem>
                     {Object.entries(THEMES).map(([id, theme]) => (
-                        <option key={id} value={id}>{theme.name}</option>
+                        <MenuItem key={id} value={id}>{theme.name}</MenuItem>
                     ))}
-                </select>
-            </div>
+                </Select>
+            </FormControl>
 
-            <div id="explorer-list" className="space-y-4 max-h-[60vh] overflow-y-auto p-2 border rounded-xl bg-gray-50">
-                {loading && <p className="text-gray-500 italic text-center py-8">Loading matches...</p>}
-                {error && <p className="text-red-500 italic text-center py-8">{error}</p>}
-                {!loading && !error && matches.length === 0 && <p className="text-gray-500 italic text-center py-8">No matches found for this theme. Be the first to upload!</p>}
-                
+            <Paper elevation={0} sx={{ p: 2, borderRadius: 2, bgcolor: '#f3f4f6', maxHeight: '60vh', overflowY: 'auto' }}>
+                {loading && <Box display="flex" justifyContent="center" alignItems="center" py={6}><CircularProgress /></Box>}
+                {error && <Alert severity="error" sx={{ my: 2 }}>{error}</Alert>}
+                {!loading && !error && matches.length === 0 && (
+                    <Typography color="text.secondary" align="center" sx={{ fontStyle: 'italic', py: 4 }}>
+                        No matches found for this theme. Be the first to upload!
+                    </Typography>
+                )}
                 {!loading && !error && matches.map(match => (
-                    // We pass a dummy handleVote since the MatchItem component requires it, but voting happens here.
-                    <MatchItem key={match.id} match={match} handleVote={() => {}} /> 
+                    <Box key={match.id} mb={2}>
+                        <MatchItem match={match} handleVote={() => {}} />
+                    </Box>
                 ))}
-            </div>
-        </div>
+            </Paper>
+        </Box>
     );
 };
 

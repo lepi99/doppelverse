@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { onSnapshot, query, limit, orderBy } from 'firebase/firestore';
 import { getCollectionRef } from '../utils/firestoreUtils.js';
 import MatchItem from '../components/MatchItem.jsx';
+import { Box, Card, CardContent, Typography, Grid, Alert, Chip, Stack, Divider } from '@mui/material';
 
 // --- Home & Leaderboard Tab Component ---
 const HomeTab = ({ db }) => {
@@ -44,50 +45,84 @@ const HomeTab = ({ db }) => {
     }, [db]);
 
     const renderLeaderboardList = (matches, title) => {
-        if (error) return <p className="text-red-500 text-center py-4">{error}</p>;
-        if (!matches.length) return <p className="text-gray-500 italic text-center py-4">No {title} yet!</p>;
+        if (error) return <Alert severity="error" sx={{ my: 2 }}>{error}</Alert>;
+        if (!matches.length) return <Typography color="text.secondary" align="center" sx={{ my: 2, fontStyle: 'italic' }}>No {title} yet!</Typography>;
 
         return (
-            <div className="space-y-3">
+            <Stack spacing={2}>
                 {matches.map((match, index) => (
-                    <div key={match.id} className="flex items-center space-x-3 p-3 bg-white rounded-lg border border-gray-100 shadow-sm hover:bg-indigo-50 transition duration-150">
-                        <span className={`text-xl font-black ${index === 0 ? 'text-yellow-600' : index === 1 ? 'text-gray-500' : index === 2 ? 'text-amber-700' : 'text-gray-700'}`}>
-                            #{index + 1}
-                        </span>
-                        <div className="flex-grow">
-                            <p className="font-semibold text-gray-800">{match.celebrityName}</p>
-                            <p className="text-xs text-indigo-500 italic">{match.themeName}</p>
-                        </div>
-                        <span className="text-lg font-bold text-indigo-600">{match.votes} Votes</span>
-                    </div>
+                    <Card key={match.id} variant="outlined" sx={{ display: 'flex', alignItems: 'center', p: 1, boxShadow: 1, borderLeft: 4, borderColor: index === 0 ? 'warning.main' : index === 1 ? 'grey.500' : index === 2 ? 'secondary.main' : 'grey.300' }}>
+                        <Chip label={`#${index + 1}`} color={index === 0 ? 'warning' : index === 1 ? 'default' : index === 2 ? 'secondary' : 'default'} sx={{ fontWeight: 'bold', fontSize: 18, mr: 2 }} />
+                        <Box flexGrow={1}>
+                            <Typography variant="subtitle1" fontWeight="bold">{match.celebrityName}</Typography>
+                            <Typography variant="caption" color="primary" fontStyle="italic">{match.themeName}</Typography>
+                        </Box>
+                        <Typography variant="h6" color="primary.main">{match.votes} Votes</Typography>
+                    </Card>
                 ))}
-            </div>
+            </Stack>
         );
     };
 
     return (
-        <div id="tab-home" className="container-card bg-white p-6 sm:p-8">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4 border-b pb-2">Top Doubles & Community Buzz</h2>
-            
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-                <div>
-                    <h3 className="text-xl font-bold text-indigo-700 mb-3">🥇 Top 10 Voted Doubles</h3>
-                    <div className="text-xs text-gray-500 mb-4">Ranked by community votes across all themes.</div>
-                    {renderLeaderboardList(topDoubles, 'doubles voted on')}
-                </div>
-                <div>
-                    <h3 className="text-xl font-bold text-purple-700 mb-3">✨ Recently Added Doubles</h3>
-                    <div className="text-xs text-gray-500 mb-4">See the newest matches uploaded by the community.</div>
-                    <div className="space-y-3">
-                        {recentDoubles.length === 0 && !error
-                            ? <p className="text-gray-500 italic text-center py-4">Loading recent matches...</p>
-                            : recentDoubles.map(match => (
-                                <MatchItem key={match.id} match={match} isHome={true} />
-                            ))}
-                    </div>
-                </div>
-            </div>
-        </div>
+        <Box id="tab-home" width="100%">
+            {/* Hero Section */}
+            <Card sx={{ borderRadius: 4, background: 'linear-gradient(90deg, #e0e7ff 0%, #f3e8ff 50%, #fdf2f8 100%)', boxShadow: 6, mb: 6 }}>
+                <CardContent sx={{ display: 'flex', flexDirection: { xs: 'column', md: 'row' }, alignItems: 'center', justifyContent: 'space-between', gap: 4 }}>
+                    <Box>
+                        <Typography variant="h3" fontWeight="bold" color="text.primary" mb={1}>
+                            🌟 Doppels Leaderboard
+                        </Typography>
+                        <Typography variant="h6" color="text.secondary" maxWidth={500}>
+                            Discover the top look-alikes, see the latest community matches, and join the fun by voting or adding your own double!
+                        </Typography>
+                    </Box>
+                    <Stack direction="row" spacing={2} alignItems="center">
+                        <Chip label={<><span role="img" aria-label="fire">🔥</span> {topDoubles.length} Top Doubles</>} color="primary" sx={{ fontWeight: 'bold', fontSize: 18, px: 2, py: 1 }} />
+                        <Chip label={<><span role="img" aria-label="new">🆕</span> {recentDoubles.length} New</>} color="secondary" sx={{ fontWeight: 'bold', fontSize: 18, px: 2, py: 1 }} />
+                    </Stack>
+                </CardContent>
+            </Card>
+
+            {/* Dashboard Cards */}
+            <Grid container spacing={4}>
+                {/* Leaderboard Card */}
+                <Grid item xs={12} md={6}>
+                    <Card sx={{ borderRadius: 4, boxShadow: 3, height: '100%', display: 'flex', flexDirection: 'column' }}>
+                        <CardContent>
+                            <Typography variant="h5" fontWeight="bold" color="primary" mb={1}>
+                                🥇 Top 10 Voted Doubles
+                            </Typography>
+                            <Typography variant="body2" color="text.secondary" mb={2}>
+                                Ranked by community votes across all themes.
+                            </Typography>
+                            {renderLeaderboardList(topDoubles, 'doubles voted on')}
+                        </CardContent>
+                    </Card>
+                </Grid>
+
+                {/* Recent Doubles Card */}
+                <Grid item xs={12} md={6}>
+                    <Card sx={{ borderRadius: 4, boxShadow: 3, height: '100%', display: 'flex', flexDirection: 'column' }}>
+                        <CardContent>
+                            <Typography variant="h5" fontWeight="bold" color="secondary" mb={1}>
+                                ✨ Recently Added Doubles
+                            </Typography>
+                            <Typography variant="body2" color="text.secondary" mb={2}>
+                                See the newest matches uploaded by the community.
+                            </Typography>
+                            <Stack spacing={2}>
+                                {recentDoubles.length === 0 && !error
+                                    ? <Typography color="text.secondary" align="center" sx={{ fontStyle: 'italic' }}>Loading recent matches...</Typography>
+                                    : recentDoubles.map(match => (
+                                        <MatchItem key={match.id} match={match} isHome={true} />
+                                    ))}
+                            </Stack>
+                        </CardContent>
+                    </Card>
+                </Grid>
+            </Grid>
+        </Box>
     );
 };
 

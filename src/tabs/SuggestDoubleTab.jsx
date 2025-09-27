@@ -2,15 +2,47 @@
 import React, { useState, useCallback } from 'react';
 import { saveUserSuggestedMatch, THEMES } from '../utils/firestoreUtils.js';
 import { fileToGenerativePart } from '../utils/apiUtils.js';
+import { Box, Typography, Divider } from '@mui/material';
 
 // --- Suggest a Double Tab Component (User Submitter) ---
 const SuggestDoubleTab = ({ db, userId, authReady }) => {
     const [fileA, setFileA] = useState(null);
     const [fileB, setFileB] = useState(null);
     const [famousName, setFamousName] = useState('');
-    const [description, setDescription] = useState('');
-    const [tags, setTags] = useState('');
-    const [themeId, setThemeId] = useState('celebrity');
+    return (
+        <Box>
+            <Typography variant="h4" fontWeight="bold" color="text.primary" mb={2}>
+                Suggest a Double
+            </Typography>
+            <Typography variant="body1" color="text.secondary" mb={3}>
+                Know a great look-alike? Suggest a new match for the community to vote on!
+            </Typography>
+            <Divider sx={{ mb: 3 }} />
+            <Box display="flex" flexDirection={{ xs: 'column', sm: 'row' }} gap={3} mb={3}>
+                <Box flex={1}>
+                    <Typography variant="subtitle1" fontWeight="bold" mb={1}>Famous Person Photo</Typography>
+                    <input
+                        accept="image/*"
+                        type="file"
+                        onChange={e => setFileA(e.target.files[0])}
+                        style={{ display: 'block', marginBottom: 8 }}
+                    />
+                    {fileA && <Typography variant="caption" color="text.secondary">{fileA.name}</Typography>}
+                </Box>
+                <Box flex={1}>
+                    <Typography variant="subtitle1" fontWeight="bold" mb={1}>Candidate Double Photo</Typography>
+                    <input
+                        accept="image/*"
+                        type="file"
+                        onChange={e => setFileB(e.target.files[0])}
+                        style={{ display: 'block', marginBottom: 8 }}
+                    />
+                    {fileB && <Typography variant="caption" color="text.secondary">{fileB.name}</Typography>}
+                </Box>
+            </Box>
+            {/* ...existing code... */}
+            </Box>
+        );
     
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState(null);

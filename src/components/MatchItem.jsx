@@ -1,6 +1,7 @@
 import React, { useState, useCallback } from 'react';
 import { handleVote } from '../utils/firestoreUtils.js';
 import { useFirebase } from '../hooks/useFirebase.js';
+import { Card, CardContent, Typography, Chip, Box, Stack, Button, Divider } from '@mui/material';
 
 /**
  * Component for displaying a single match item.
@@ -57,40 +58,43 @@ const MatchItem = ({ match, isHome = false }) => {
         title = match.celebrityName;
     }
 
-    const itemClassName = isHome ? "p-3 bg-white rounded-lg border border-gray-100 shadow-sm" : "flex flex-col sm:flex-row p-4 bg-white rounded-xl border border-gray-200";
-
+    if (isHome) {
+        // MUI Card for Home/Recent Doubles
+        return (
+            <Card variant="outlined" sx={{ mb: 1, borderRadius: 2, boxShadow: 1 }}>
+                <CardContent sx={{ p: 2 }}>
+                    <Stack direction="row" alignItems="center" spacing={2}>
+                        <Box flexGrow={1}>
+                            <Typography variant="subtitle1" fontWeight="bold">{title}</Typography>
+                            <Typography variant="caption" color="primary" fontStyle="italic">Theme: {match.themeName} | Votes: {votes}</Typography>
+                            {tagsHtml && <Box mt={1}>{tagsHtml}</Box>}
+                        </Box>
+                    </Stack>
+                </CardContent>
+            </Card>
+        );
+    }
+    // Detailed view for Explorer (keep Tailwind for now)
     return (
-        <div className={itemClassName}>
-            {isHome ? (
-                // Simplified view for Home/Recent Doubles
-                <div className="hover:bg-indigo-50 transition duration-150">
-                    <p className="font-semibold text-gray-800">{title}</p>
-                    <p className="text-xs text-gray-500">Theme: {match.themeName} | Votes: {votes}</p>
-                    {tagsHtml}
+        <div className="flex flex-col sm:flex-row p-4 bg-white rounded-xl border border-gray-200">
+            <div className="flex-shrink-0 mr-4 mb-2 sm:mb-0">
+                {imageHtml}
+            </div>
+            <div className="flex-grow">
+                <p className="text-xl font-extrabold text-purple-600">{title}</p>
+                <p className="text-sm text-gray-700 italic">{description}</p>
+                {tagsHtml}
+                <div className="mt-2 text-xs text-gray-500 flex justify-between items-center">
+                    <span>Category: <span className="font-semibold">{match.themeName}</span></span>
+                    <button
+                        onClick={voteHandler}
+                        disabled={voted}
+                        className="vote-button bg-green-500 hover:bg-green-600 text-white font-bold py-1 px-2 rounded-full flex items-center shadow-md disabled:opacity-50 text-sm"
+                    >
+                        {voted ? `👍 Voted (${votes})` : `👍 Vote Up (${votes})`}
+                    </button>
                 </div>
-            ) : (
-                // Detailed view for Explorer
-                <>
-                    <div className="flex-shrink-0 mr-4 mb-2 sm:mb-0">
-                        {imageHtml}
-                    </div>
-                    <div className="flex-grow">
-                        <p className="text-xl font-extrabold text-purple-600">{title}</p>
-                        <p className="text-sm text-gray-700 italic">{description}</p>
-                        {tagsHtml}
-                        <div className="mt-2 text-xs text-gray-500 flex justify-between items-center">
-                            <span>Category: <span className="font-semibold">{match.themeName}</span></span>
-                            <button
-                                onClick={voteHandler}
-                                disabled={voted}
-                                className="vote-button bg-green-500 hover:bg-green-600 text-white font-bold py-1 px-2 rounded-full flex items-center shadow-md disabled:opacity-50 text-sm"
-                            >
-                                {voted ? `👍 Voted (${votes})` : `👍 Vote Up (${votes})`}
-                            </button>
-                        </div>
-                    </div>
-                </>
-            )}
+            </div>
         </div>
     );
 };
