@@ -1,0 +1,36 @@
+##dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+##next.js build output
+/.next/
+/out/
+.next/
+
+##production artifacts
+/coverage
+/build
+
+##logs
+npm-debug.log
+yarn-error.log
+.npm/
+.yarn/
+
+##environment variables (CRITICAL FOR SECURITY)
+##This prevents your API keys and secrets from being committed to the public repo.
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
+
+##local configuration files
+.DS_Store
+.vscode
+.idea
+*.log
+
+##vercel/netlify specific
+.vercel
+.netlify
