@@ -1,0 +1,324 @@
+{
+  "Face/Head Shape": {
+    "Shape": [
+      "Long",
+      "Oval",
+      "Round",
+      "Square",
+      "Heart-shaped"
+    ]
+  },
+  "Forehead": {
+    "Height": [
+      "High",
+      "Average",
+      "Low"
+    ],
+    "Shape": [
+      "Rounded / Domed",
+      "Flat",
+      "Sloped"
+    ],
+    "Texture": [
+      "Smooth",
+      "Wrinkled"
+    ]
+  },
+  "Eyes": {
+    "Size": [
+      "Small",
+      "Medium / Proportional",
+      "Large"
+    ],
+    "Shape": [
+      "Round",
+      "Almond-shaped",
+      "Deep-set",
+      "Downturned",
+      "Upturned"
+    ],
+    "Placement": [
+      "Wide-set",
+      "Close-set",
+      "Proportional"
+    ],
+    "Color": [
+      "Dark (Brown/Black)",
+      "Light (Blue/Gray)",
+      "Green/Hazel",
+      "Amber/Gold"
+    ]
+  },
+  "Eyelashes": {
+    "Length (Size)": [
+      "Short",
+      "Average",
+      "Long"
+    ],
+    "Density (Sparse/Normal/Full)": [
+      "Sparse",
+      "Normal / Average",
+      "Full / Lush"
+    ],
+    "Curl": [
+      "Straight",
+      "Curled"
+    ]
+  },
+  "Nose": {
+    "Length": [
+      "Short",
+      "Medium / Proportional",
+      "Long"
+    ],
+    "Width": [
+      "Narrow / Slender",
+      "Medium",
+      "Broad / Wide"
+    ],
+    "Shape": [
+      "Button (Small and rounded)",
+      "Straight",
+      "Aquiline / Hooked (Prominent bridge)",
+      "Flat"
+    ]
+  },
+  "Cheeks & Cheekbones": {
+    "Cheeks": [
+      "Full / Round",
+      "Soft / Saggy",
+      "Dimpled"
+    ],
+    "Cheekbones": [
+      "Defined / High",
+      "Less Prominent / Soft"
+    ]
+  },
+  "Mouth": {
+    "Shape & Size": [
+      "Wide",
+      "Narrow",
+      "Full Lips",
+      "Thin Lips",
+      "Smile-like appearance"
+    ]
+  },
+  "Teeth": {
+    "Prominence of Canine Teeth": [
+      "Sharp / Prominent",
+      "Rounded",
+      "Not Visible"
+    ],
+    "Front Teeth Shape/Alignment": [
+      "Straight / Symmetrical",
+      "Gapped",
+      "Rounded Edges",
+      "Square Edges"
+    ],
+    "Teeth Crowding/Spacing": [
+      "Crowded",
+      "Well-spaced",
+      "Proportional"
+    ]
+  },
+  "Jaw & Chin": {
+    "Jawline Shape": [
+      "Strong / Square",
+      "Defined / V-shaped",
+      "Rounded"
+    ],
+    "Chin": [
+      "Prominent",
+      "Rounded",
+      "Receding"
+    ]
+  },
+  "Overall Jaw/Mouth Appearance": {
+    "Bite": [
+      "Underbite",
+      "Overbite",
+      "Proportional"
+    ]
+  },
+  "Hair": {
+    "Length (Size)": [
+      "Bald / No Hair",
+      "Short",
+      "Medium",
+      "Long"
+    ],
+    "Density": [
+      "Thin / Sparse",
+      "Average",
+      "Thick / Dense"
+    ],
+    "Type": [
+      "Sleek / Straight",
+      "Wavy / Flowing",
+      "Curly / Fluffy",
+      "Wiry / Coarse",
+      "Spiky"
+    ],
+    "Color": [
+      "Black",
+      "Brown",
+      "Blonde",
+      "Red / Auburn",
+      "Gray / White",
+      "Other (dyed colors)"
+    ]
+  },
+  "Facial Hair": {
+    "Type": [
+      "Clean-shaven / No Facial Hair",
+      "Beard / Goatee",
+      "Mustache",
+      "Sideburns",
+      "Stubble"
+    ]
+  },
+  "Skin & Facial Texture": {
+    "Skin Color": [
+      "Light",
+      "Medium",
+      "Dark"
+    ],
+    "Facial Texture": [
+      "Smooth",
+      "Wrinkled",
+      "Freckled"
+    ]
+  },
+  "Ears (hears)": {
+    "Size": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "Shape": [
+      "Attached earlobes",
+      "Detached earlobes",
+      "Pointy",
+      "Rounded"
+    ]
+  },
+  "Expressive Face": {
+    "Common Expressions": [
+      "Raised eyebrows",
+      "Engaged / Intense look",
+      "\"Puppy-dog eyes\" (raised inner eyebrow)",
+      "Natural smile-like appearance"
+    ]
+  },
+  "Cranio-Facial Angle": {
+    "Profile Angle": [
+      "Flat Profile (similar to brachycephalic)",
+      "Average / Proportional Profile",
+      "Angled / Prominent Profile (similar to dolichocephalic)"
+    ]
+  },
+  "Eyebrows": {
+    "Shape/Arch": [
+      "Straight",
+      "Arched (High/Soft)",
+      "Rounded",
+      "S-shaped / Curved"
+    ],
+    "Thickness": [
+      "Thin / Sparse",
+      "Average / Medium",
+      "Thick / Bushy"
+    ],
+    "Position": [
+      "Low-set",
+      "Average",
+      "High-set"
+    ],
+    "Unibrow": [
+      "None",
+      "Slight / Connecting",
+      "Prominent"
+    ]
+  },
+  "Lips": {
+    "Fullness": [
+      "Thin",
+      "Average",
+      "Full",
+      "Plump"
+    ],
+    "Shape": [
+      "Defined Cupid's Bow",
+      "Undefined/Soft Cupid's Bow",
+      "Heart-shaped",
+      "Downturned",
+      "Wide"
+    ]
+  },
+  "Eye Details": {
+    "Eyelids": [
+      "Monolid",
+      "Double Eyelid",
+      "Hooded Eyelid"
+    ],
+    "Epicanthic Fold": [
+      "Present",
+      "Absent"
+    ],
+    "Under-eye": [
+      "Smooth",
+      "Puffy / Bags",
+      "Dark Circles"
+    ]
+  },
+  "Nose Details": {
+    "Nose Bridge": [
+      "High",
+      "Low",
+      "Straight",
+      "Concave (dished)"
+    ],
+    "Nose Tip": [
+      "Pointed",
+      "Rounded",
+      "Bulbous",
+      "Upturned"
+    ],
+    "Nostrils": [
+      "Flared",
+      "Narrow",
+      "Round"
+    ]
+  },
+  "Chin Details": {
+    "Cleft Chin": [
+      "Present",
+      "Absent"
+    ]
+  },
+  "Hairline": {
+    "Shape": [
+      "Straight",
+      "Rounded",
+      "Widow's Peak",
+      "M-shaped"
+    ],
+    "Receding": [
+      "Not Receding",
+      "Slightly Receding",
+      "Noticeably Receding"
+    ]
+  },
+  "Facial Texture / Skin Markings": {
+    "Lines/Wrinkles": [
+      "Crow's Feet (around eyes)",
+      "Frown Lines (between eyebrows)",
+      "Smile Lines / Nasolabial Folds"
+    ],
+    "Other Markings": [
+      "Moles",
+      "Scars",
+      "Birthmarks"
+    ]
+  }
+}

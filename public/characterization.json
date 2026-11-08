@@ -1,0 +1,1463 @@
+ [
+  {
+    "name": "Pug",
+    "type": "Dog Breed",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Round" },
+      "Forehead": { "Height": "Low", "Shape": "Flat", "Texture": "Wrinkled" },
+      "Eyes": { "Size": "Large", "Shape": "Round", "Placement": "Wide-set", "Color": "Dark (Brown/Black)" },
+      "Eyelashes": { "Length (Size)": "Average", "Density (Sparse/Normal/Full)": "Normal / Average", "Curl": "Straight" },
+      "Nose": { "Length": "Short", "Width": "Broad / Wide", "Shape": "Flat" },
+      "Cheeks & Cheekbones": { "Cheeks": "Full / Round" },
+      "Mouth": { "Shape & Size": "Wide, Full Lips (Jowls)" },
+      "Teeth": { "Prominence of Canine Teeth": "Not Visible", "Teeth Crowding/Spacing": "Crowded" },
+      "Jaw & Chin": { "Jawline Shape": "Rounded", "Chin": "Receding" },
+      "Overall Jaw/Mouth Appearance": { "Bite": "Underbite" },
+      "Hair": { "Length (Size)": "Short", "Density": "Average", "Type": "Sleek / Straight" },
+      "Ears (hears)": { "Size": "Small", "Shape": "Rounded (Button or Rose ears)" },
+      "Expressive Face": { "Common Expressions": "Engaged / Intense look" },
+      "Cranio-Facial Angle": { "Profile Angle": "Flat Profile (Brachycephalic)" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Frown Lines (between eyebrows), Smile Lines / Nasolabial Folds" }
+    }
+  },
+  {
+    "name": "Greyhound",
+    "type": "Dog Breed",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Long" },
+      "Forehead": { "Height": "Average", "Shape": "Sloped", "Texture": "Smooth" },
+      "Eyes": { "Size": "Medium / Proportional", "Shape": "Almond-shaped", "Placement": "Proportional", "Color": "Dark (Brown/Black)" },
+      "Eyelashes": { "Length (Size)": "Short", "Density (Sparse/Normal/Full)": "Normal / Average", "Curl": "Straight" },
+      "Nose": { "Length": "Long", "Width": "Narrow / Slender", "Shape": "Straight" },
+      "Cheeks & Cheekbones": { "Cheekbones": "Defined / High" },
+      "Mouth": { "Shape & Size": "Narrow, Thin Lips" },
+      "Teeth": { "Prominence of Canine Teeth": "Not Visible", "Teeth Crowding/Spacing": "Well-spaced" },
+      "Jaw & Chin": { "Jawline Shape": "Defined / V-shaped", "Chin": "Receding" },
+      "Overall Jaw/Mouth Appearance": { "Bite": "Proportional (Scissor bite)" },
+      "Hair": { "Length (Size)": "Short", "Density": "Thin / Sparse", "Type": "Sleek / Straight" },
+      "Ears (hears)": { "Size": "Small", "Shape": "Rounded (Rose ears)" },
+      "Expressive Face": { "Common Expressions": "Engaged / Intense look" },
+      "Cranio-Facial Angle": { "Profile Angle": "Angled / Prominent Profile (Dolichocephalic)" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Smooth" }
+    }
+  },
+  {
+    "name": "German Shepherd",
+    "type": "Dog Breed",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Long" },
+      "Forehead": { "Height": "Average", "Shape": "Sloped", "Texture": "Smooth" },
+      "Eyes": { "Size": "Medium / Proportional", "Shape": "Almond-shaped", "Placement": "Proportional", "Color": "Dark (Brown/Black)" },
+      "Eyelashes": { "Length (Size)": "Average", "Density (Sparse/Normal/Full)": "Normal / Average", "Curl": "Straight" },
+      "Nose": { "Length": "Long", "Width": "Medium", "Shape": "Straight" },
+      "Cheeks & Cheekbones": { "Cheekbones": "Defined / High" },
+      "Mouth": { "Shape & Size": "Wide, Thin Lips" },
+      "Teeth": { "Prominence of Canine Teeth": "Sharp / Prominent", "Teeth Crowding/Spacing": "Proportional" },
+      "Jaw & Chin": { "Jawline Shape": "Strong / Square", "Chin": "Prominent" },
+      "Overall Jaw/Mouth Appearance": { "Bite": "Proportional (Scissor bite)" },
+      "Hair": { "Length (Size)": "Medium", "Density": "Thick / Dense", "Type": "Wavy / Flowing" },
+      "Ears (hears)": { "Size": "Large", "Shape": "Pointy (Erect)" },
+      "Expressive Face": { "Common Expressions": "Engaged / Intense look, \"Puppy-dog eyes\"" },
+      "Cranio-Facial Angle": { "Profile Angle": "Average / Proportional Profile (Mesocephalic)" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Smooth" }
+    }
+  },
+  {
+    "name": "Poodle (Standard)",
+    "type": "Dog Breed",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Long" },
+      "Forehead": { "Height": "Average", "Shape": "Rounded / Domed", "Texture": "Smooth (under hair)" },
+      "Eyes": { "Size": "Medium / Proportional", "Shape": "Almond-shaped", "Placement": "Proportional", "Color": "Dark (Brown/Black)" },
+      "Eyelashes": { "Length (Size)": "Long", "Density (Sparse/Normal/Full)": "Full / Lush", "Curl": "Curled" },
+      "Nose": { "Length": "Long", "Width": "Narrow / Slender", "Shape": "Straight" },
+      "Cheeks & Cheekbones": { "Cheekbones": "Defined / High" },
+      "Mouth": { "Shape & Size": "Narrow, Thin Lips" },
+      "Teeth": { "Prominence of Canine Teeth": "Not Visible", "Teeth Crowding/Spacing": "Proportional" },
+      "Jaw & Chin": { "Jawline Shape": "Defined / V-shaped", "Chin": "Receding" },
+      "Overall Jaw/Mouth Appearance": { "Bite": "Proportional (Scissor bite)" },
+      "Hair": { "Length (Size)": "Long", "Density": "Thick / Dense", "Type": "Curly / Fluffy" },
+      "Ears (hears)": { "Size": "Large", "Shape": "Rounded (Floppy)" },
+      "Expressive Face": { "Common Expressions": "Engaged / Intense look" },
+      "Cranio-Facial Angle": { "Profile Angle": "Angled / Prominent Profile (Dolichocephalic)" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Smooth (under hair)" }
+    }
+  },
+  {
+    "name": "Bulldog",
+    "type": "Dog Breed",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Square / Round" },
+      "Forehead": { "Height": "Low", "Shape": "Flat", "Texture": "Wrinkled" },
+      "Eyes": { "Size": "Medium / Proportional", "Shape": "Round", "Placement": "Wide-set", "Color": "Dark (Brown/Black)" },
+      "Eyelashes": { "Length (Size)": "Short", "Density (Sparse/Normal/Full)": "Normal / Average", "Curl": "Straight" },
+      "Nose": { "Length": "Short", "Width": "Broad / Wide", "Shape": "Flat" },
+      "Cheeks & Cheekbones": { "Cheeks": "Full / Round, Soft / Saggy (Jowls)" },
+      "Mouth": { "Shape & Size": "Wide, Full Lips (Jowls)" },
+      "Teeth": { "Prominence of Canine Teeth": "Not Visible", "Teeth Crowding/Spacing": "Crowded" },
+      "Jaw & Chin": { "Jawline Shape": "Strong / Square", "Chin": "Prominent" },
+      "Overall Jaw/Mouth Appearance": { "Bite": "Underbite" },
+      "Hair": { "Length (Size)": "Short", "Density": "Average", "Type": "Sleek / Straight" },
+      "Ears (hears)": { "Size": "Small", "Shape": "Rounded (Rose ears)" },
+      "Expressive Face": { "Common Expressions": "Engaged / Intense look" },
+      "Cranio-Facial Angle": { "Profile Angle": "Flat Profile (Brachycephalic)" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Frown Lines, Smile Lines / Nasolabial Folds" }
+    }
+  },
+  {
+    "name": "Siberian Husky",
+    "type": "Dog Breed",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Long" },
+      "Forehead": { "Height": "Average", "Shape": "Sloped", "Texture": "Smooth" },
+      "Eyes": { "Size": "Medium / Proportional", "Shape": "Almond-shaped, Upturned", "Placement": "Proportional", "Color": "Light (Blue/Gray) or Dark (Brown/Black)" },
+      "Eyelashes": { "Length (Size)": "Average", "Density (Sparse/Normal/Full)": "Normal / Average", "Curl": "Straight" },
+      "Nose": { "Length": "Medium / Proportional", "Width": "Medium", "Shape": "Straight" },
+      "Cheeks & Cheekbones": { "Cheekbones": "Defined / High" },
+      "Mouth": { "Shape & Size": "Wide, Thin Lips" },
+      "Teeth": { "Prominence of Canine Teeth": "Sharp / Prominent", "Teeth Crowding/Spacing": "Proportional" },
+      "Jaw & Chin": { "Jawline Shape": "Defined / V-shaped", "Chin": "Prominent" },
+      "Overall Jaw/Mouth Appearance": { "Bite": "Proportional (Scissor bite)" },
+      "Hair": { "Length (Size)": "Medium", "Density": "Thick / Dense", "Type": "Curly / Fluffy" },
+      "Ears (hears)": { "Size": "Medium", "Shape": "Pointy (Erect)" },
+      "Expressive Face": { "Common Expressions": "Engaged / Intense look" },
+      "Cranio-Facial Angle": { "Profile Angle": "Average / Proportional Profile (Mesocephalic)" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Smooth" }
+    }
+  },
+  {
+    "name": "Basset Hound",
+    "type": "Dog Breed",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Long" },
+      "Forehead": { "Height": "Average", "Shape": "Rounded / Domed", "Texture": "Wrinkled" },
+      "Eyes": { "Size": "Large", "Shape": "Downturned, Deep-set", "Placement": "Proportional", "Color": "Dark (Brown/Black)" },
+      "Eyelashes": { "Length (Size)": "Average", "Density (Sparse/Normal/Full)": "Normal / Average", "Curl": "Straight" },
+      "Nose": { "Length": "Long", "Width": "Broad / Wide", "Shape": "Straight" },
+      "Cheeks & Cheekbones": { "Cheeks": "Soft / Saggy (Jowls)" },
+      "Mouth": { "Shape & Size": "Wide, Full Lips (Jowls), Downturned" },
+      "Teeth": { "Prominence of Canine Teeth": "Not Visible", "Teeth Crowding/Spacing": "Well-spaced" },
+      "Jaw & Chin": { "Jawline Shape": "Rounded", "Chin": "Rounded" },
+      "Overall Jaw/Mouth Appearance": { "Bite": "Proportional (Scissor bite)" },
+      "Hair": { "Length (Size)": "Short", "Density": "Average", "Type": "Sleek / Straight" },
+      "Ears (hears)": { "Size": "Large", "Shape": "Rounded (Long and floppy)" },
+      "Expressive Face": { "Common Expressions": "\"Puppy-dog eyes\"" },
+      "Cranio-Facial Angle": { "Profile Angle": "Angled / Prominent Profile (Dolichocephalic)" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Wrinkled (loose skin)" }
+    }
+  },
+  {
+    "name": "Shar Pei",
+    "type": "Dog Breed",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Square" },
+      "Forehead": { "Height": "Low", "Shape": "Flat", "Texture": "Wrinkled" },
+      "Eyes": { "Size": "Small", "Shape": "Deep-set", "Placement": "Wide-set", "Color": "Dark (Brown/Black)" },
+      "Eyelashes": { "Length (Size)": "Short", "Density (Sparse/Normal/Full)": "Normal / Average", "Curl": "Straight" },
+      "Nose": { "Length": "Short", "Width": "Broad / Wide", "Shape": "Flat" },
+      "Cheeks & Cheekbones": { "Cheeks": "Full / Round" },
+      "Mouth": { "Shape & Size": "Wide, Full Lips (Padded muzzle)" },
+      "Teeth": { "Prominence of Canine Teeth": "Not Visible", "Teeth Crowding/Spacing": "Proportional" },
+      "Jaw & Chin": { "Jawline Shape": "Strong / Square", "Chin": "Rounded" },
+      "Overall Jaw/Mouth Appearance": { "Bite": "Proportional (Scissor bite)" },
+      "Hair": { "Length (Size)": "Short", "Density": "Average", "Type": "Wiry / Coarse" },
+      "Ears (hears)": { "Size": "Small", "Shape": "Pointy (Triangular, close to head)" },
+      "Expressive Face": { "Common Expressions": "Engaged / Intense look" },
+      "Cranio-Facial Angle": { "Profile Angle": "Average / Proportional Profile" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Wrinkled" }
+    }
+  },
+  {
+    "name": "Doberman Pinscher",
+    "type": "Dog Breed",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Long" },
+      "Forehead": { "Height": "Average", "Shape": "Flat", "Texture": "Smooth" },
+      "Eyes": { "Size": "Medium / Proportional", "Shape": "Almond-shaped, Deep-set", "Placement": "Proportional", "Color": "Dark (Brown/Black)" },
+      "Eyelashes": { "Length (Size)": "Short", "Density (Sparse/Normal/Full)": "Normal / Average", "Curl": "Straight" },
+      "Nose": { "Length": "Long", "Width": "Narrow / Slender", "Shape": "Straight" },
+      "Cheeks & Cheekbones": { "Cheekbones": "Defined / High" },
+      "Mouth": { "Shape & Size": "Wide, Thin Lips" },
+      "Teeth": { "Prominence of Canine Teeth": "Sharp / Prominent", "Teeth Crowding/Spacing": "Proportional" },
+      "Jaw & Chin": { "Jawline Shape": "Strong / Square", "Chin": "Prominent" },
+      "Overall Jaw/Mouth Appearance": { "Bite": "Proportional (Scissor bite)" },
+      "Hair": { "Length (Size)": "Short", "Density": "Average", "Type": "Sleek / Straight" },
+      "Ears (hears)": { "Size": "Large", "Shape": "Pointy (Often cropped, naturally floppy)" },
+      "Expressive Face": { "Common Expressions": "Engaged / Intense look" },
+      "Cranio-Facial Angle": { "Profile Angle": "Angled / Prominent Profile (Dolichocephalic)" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Smooth" }
+    }
+  },
+  {
+    "name": "Persian",
+    "type": "Cat Breed",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Round" },
+      "Forehead": { "Height": "Low", "Shape": "Rounded / Domed", "Texture": "Smooth (under fur)" },
+      "Eyes": { "Size": "Large", "Shape": "Round", "Placement": "Wide-set", "Color": "Varies (Amber/Gold, Green/Hazel, Light)" },
+      "Eyelashes": { "Length (Size)": "Long", "Density (Sparse/Normal/Full)": "Full / Lush", "Curl": "Straight" },
+      "Nose": { "Length": "Short", "Width": "Broad / Wide", "Shape": "Button (Small and rounded)" },
+      "Cheeks & Cheekbones": { "Cheeks": "Full / Round" },
+      "Mouth": { "Shape & Size": "Narrow, Downturned" },
+      "Teeth": { "Prominence of Canine Teeth": "Not Visible", "Teeth Crowding/Spacing": "Crowded" },
+      "Jaw & Chin": { "Jawline Shape": "Rounded", "Chin": "Receding" },
+      "Overall Jaw/Mouth Appearance": { "Bite": "Underbite (common)" },
+      "Hair": { "Length (Size)": "Long", "Density": "Thick / Dense", "Type": "Wavy / Flowing" },
+      "Ears (hears)": { "Size": "Small", "Shape": "Rounded" },
+      "Expressive Face": { "Common Expressions": "Engaged / Intense look" },
+      "Cranio-Facial Angle": { "Profile Angle": "Flat Profile (Brachycephalic)" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Smooth (under fur)" }
+    }
+  },
+  {
+    "name": "Siamese",
+    "type": "Cat Breed",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Long (Wedge-shaped)" },
+      "Forehead": { "Height": "Average", "Shape": "Flat/Sloped", "Texture": "Smooth" },
+      "Eyes": { "Size": "Large", "Shape": "Almond-shaped, Upturned", "Placement": "Proportional", "Color": "Light (Blue/Gray)" },
+      "Eyelashes": { "Length (Size)": "Short", "Density (Sparse/Normal/Full)": "Normal / Average", "Curl": "Straight" },
+      "Nose": { "Length": "Long", "Width": "Narrow / Slender", "Shape": "Straight" },
+      "Cheeks & Cheekbones": { "Cheekbones": "Defined / High" },
+      "Mouth": { "Shape & Size": "Narrow, Thin Lips" },
+      "Teeth": { "Prominence of Canine Teeth": "Not Visible", "Teeth Crowding/Spacing": "Proportional" },
+      "Jaw & Chin": { "Jawline Shape": "Defined / V-shaped", "Chin": "Prominent" },
+      "Overall Jaw/Mouth Appearance": { "Bite": "Proportional (Scissor bite)" },
+      "Hair": { "Length (Size)": "Short", "Density": "Average", "Type": "Sleek / Straight" },
+      "Ears (hears)": { "Size": "Large", "Shape": "Pointy" },
+      "Expressive Face": { "Common Expressions": "Engaged / Intense look" },
+      "Cranio-Facial Angle": { "Profile Angle": "Angled / Prominent Profile" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Smooth" }
+    }
+  },
+  {
+    "name": "Sphynx",
+    "type": "Cat Breed",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Heart-shaped" },
+      "Forehead": { "Height": "High", "Shape": "Rounded", "Texture": "Wrinkled" },
+      "Eyes": { "Size": "Large", "Shape": "Round", "Placement": "Wide-set", "Color": "Varies (Amber/Gold, Green/Hazel, Light)" },
+      "Eyelashes": { "Length (Size)": "Short", "Density (Sparse/Normal/Full)": "Sparse (or absent)" },
+      "Nose": { "Length": "Short", "Width": "Medium", "Shape": "Straight" },
+      "Cheeks & Cheekbones": { "Cheekbones": "Defined / High" },
+      "Mouth": { "Shape & Size": "Narrow, Downturned" },
+      "Teeth": { "Prominence of Canine Teeth": "Not Visible", "Teeth Crowding/Spacing": "Proportional" },
+      "Jaw & Chin": { "Jawline Shape": "Rounded", "Chin": "Rounded" },
+      "Overall Jaw/Mouth Appearance": { "Bite": "Proportional" },
+      "Hair": { "Length (Size)": "Bald / No Hair" },
+      "Ears (hears)": { "Size": "Large", "Shape": "Pointy" },
+      "Expressive Face": { "Common Expressions": "Engaged / Intense look" },
+      "Cranio-Facial Angle": { "Profile Angle": "Average / Proportional Profile" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Wrinkled" }
+    }
+  },
+  {
+    "name": "Tyrannosaurus Rex",
+    "type": "Dinosaur",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Long / Square" },
+      "Forehead": { "Height": "Average", "Shape": "Sloped", "Texture": "Smooth (Scaly)" },
+      "Eyes": { "Size": "Small", "Shape": "Round", "Placement": "Proportional (Forward-facing)", "Color": "Amber/Gold" },
+      "Nose": { "Length": "Long", "Width": "Broad / Wide", "Shape": "Rounded" },
+      "Cheeks & Cheekbones": { "Cheekbones": "Defined / High" },
+      "Mouth": { "Shape & Size": "Wide, Thin Lips (Debated, but likely present)" },
+      "Teeth": { "Prominence of Canine Teeth": "Sharp / Prominent (All teeth are prominent)" },
+      "Jaw & Chin": { "Jawline Shape": "Strong / Square", "Chin": "Prominent" },
+      "Overall Jaw/Mouth Appearance": { "Bite": "Proportional" },
+      "Hair": { "Length (Size)": "Bald / No Hair (Scaly)" },
+      "Ears (hears)": { "Size": "Small (Internal, not visible)" },
+      "Cranio-Facial Angle": { "Profile Angle": "Angled / Prominent Profile" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Smooth (Scaly)" }
+    }
+  },
+  {
+    "name": "Triceratops",
+    "type": "Dinosaur",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Square (due to frill)" },
+      "Forehead": { "Height": "Low", "Shape": "Sloped", "Texture": "Smooth (Bony/Scaly)" },
+      "Eyes": { "Size": "Medium / Proportional", "Shape": "Round", "Placement": "Wide-set", "Color": "Dark (Brown/Black)" },
+      "Nose": { "Length": "Short", "Width": "Broad / Wide", "Shape": "Aquiline / Hooked (Beak)" },
+      "Cheeks & Cheekbones": { "Cheeks": "Full / Round" },
+      "Mouth": { "Shape & Size": "Wide (Beak)" },
+      "Teeth": { "Prominence of Canine Teeth": "Not Visible (Dental batteries)" },
+      "Jaw & Chin": { "Jawline Shape": "Strong / Square", "Chin": "Rounded" },
+      "Overall Jaw/Mouth Appearance": { "Bite": "Proportional" },
+      "Hair": { "Length (Size)": "Bald / No Hair (Scaly)" },
+      "Ears (hears)": { "Size": "Small (Internal, not visible)" },
+      "Cranio-Facial Angle": { "Profile Angle": "Flat Profile" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Smooth (Scaly/Bony)" }
+    }
+  },
+  {
+    "name": "Great Dane",
+    "type": "Dog Breed",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Long" },
+      "Forehead": { "Height": "Average", "Shape": "Flat", "Texture": "Smooth" },
+      "Eyes": { "Size": "Medium / Proportional", "Shape": "Almond-shaped", "Placement": "Proportional", "Color": "Dark (Brown/Black)" },
+      "Eyelashes": { "Length (Size)": "Short", "Density (Sparse/Normal/Full)": "Normal / Average", "Curl": "Straight" },
+      "Nose": { "Length": "Long", "Width": "Broad / Wide", "Shape": "Straight" },
+      "Cheeks & Cheekbones": { "Cheeks": "Soft / Saggy (Jowls)", "Cheekbones": "Defined / High" },
+      "Mouth": { "Shape & Size": "Wide, Full Lips (Jowls)" },
+      "Teeth": { "Prominence of Canine Teeth": "Not Visible", "Teeth Crowding/Spacing": "Proportional" },
+      "Jaw & Chin": { "Jawline Shape": "Strong / Square", "Chin": "Prominent" },
+      "Overall Jaw/Mouth Appearance": { "Bite": "Proportional (Scissor bite)" },
+      "Hair": { "Length (Size)": "Short", "Density": "Average", "Type": "Sleek / Straight" },
+      "Ears (hears)": { "Size": "Large", "Shape": "Pointy (Often cropped, naturally floppy)" },
+      "Expressive Face": { "Common Expressions": "Engaged / Intense look" },
+      "Cranio-Facial Angle": { "Profile Angle": "Angled / Prominent Profile (Dolichocephalic)" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Smooth" }
+    }
+  },
+  {
+    "name": "Collie",
+    "type": "Dog Breed",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Long" },
+      "Forehead": { "Height": "Average", "Shape": "Sloped", "Texture": "Smooth (under fur)" },
+      "Eyes": { "Size": "Medium / Proportional", "Shape": "Almond-shaped", "Placement": "Proportional", "Color": "Dark (Brown/Black)" },
+      "Eyelashes": { "Length (Size)": "Average", "Density (Sparse/Normal/Full)": "Normal / Average", "Curl": "Straight" },
+      "Nose": { "Length": "Long", "Width": "Narrow / Slender", "Shape": "Straight" },
+      "Cheeks & Cheekbones": { "Cheekbones": "Defined / High" },
+      "Mouth": { "Shape & Size": "Narrow, Thin Lips" },
+      "Teeth": { "Prominence of Canine Teeth": "Not Visible", "Teeth Crowding/Spacing": "Proportional" },
+      "Jaw & Chin": { "Jawline Shape": "Defined / V-shaped", "Chin": "Receding" },
+      "Overall Jaw/Mouth Appearance": { "Bite": "Proportional (Scissor bite)" },
+      "Hair": { "Length (Size)": "Long", "Density": "Thick / Dense", "Type": "Wavy / Flowing" },
+      "Ears (hears)": { "Size": "Medium", "Shape": "Pointy (Semi-prick)" },
+      "Expressive Face": { "Common Expressions": "Engaged / Intense look" },
+      "Cranio-Facial Angle": { "Profile Angle": "Angled / Prominent Profile (Dolichocephalic)" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Smooth (under fur)" }
+    }
+  },
+  {
+    "name": "French Bulldog",
+    "type": "Dog Breed",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Square" },
+      "Forehead": { "Height": "Low", "Shape": "Rounded / Domed", "Texture": "Wrinkled" },
+      "Eyes": { "Size": "Large", "Shape": "Round", "Placement": "Wide-set", "Color": "Dark (Brown/Black)" },
+      "Eyelashes": { "Length (Size)": "Short", "Density (Sparse/Normal/Full)": "Normal / Average", "Curl": "Straight" },
+      "Nose": { "Length": "Short", "Width": "Broad / Wide", "Shape": "Flat" },
+      "Cheeks & Cheekbones": { "Cheeks": "Full / Round" },
+      "Mouth": { "Shape & Size": "Wide, Full Lips (Jowls)" },
+      "Teeth": { "Prominence of Canine Teeth": "Not Visible", "Teeth Crowding/Spacing": "Crowded" },
+      "Jaw & Chin": { "Jawline Shape": "Rounded", "Chin": "Receding" },
+      "Overall Jaw/Mouth Appearance": { "Bite": "Underbite" },
+      "Hair": { "Length (Size)": "Short", "Density": "Average", "Type": "Sleek / Straight" },
+      "Ears (hears)": { "Size": "Large", "Shape": "Pointy (Bat ears)" },
+      "Expressive Face": { "Common Expressions": "Engaged / Intense look" },
+      "Cranio-Facial Angle": { "Profile Angle": "Flat Profile (Brachycephalic)" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Wrinkled" }
+    }
+  },
+  {
+    "name": "Boxer",
+    "type": "Dog Breed",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Square" },
+      "Forehead": { "Height": "Average", "Shape": "Flat", "Texture": "Wrinkled" },
+      "Eyes": { "Size": "Large", "Shape": "Round", "Placement": "Proportional", "Color": "Dark (Brown/Black)" },
+      "Eyelashes": { "Length (Size)": "Short", "Density (Sparse/Normal/Full)": "Normal / Average", "Curl": "Straight" },
+      "Nose": { "Length": "Short", "Width": "Broad / Wide", "Shape": "Flat" },
+      "Cheeks & Cheekbones": { "Cheeks": "Soft / Saggy (Jowls)" },
+      "Mouth": { "Shape & Size": "Wide, Full Lips (Jowls)" },
+      "Teeth": { "Prominence of Canine Teeth": "Not Visible", "Teeth Crowding/Spacing": "Proportional" },
+      "Jaw & Chin": { "Jawline Shape": "Strong / Square", "Chin": "Prominent" },
+      "Overall Jaw/Mouth Appearance": { "Bite": "Underbite" },
+      "Hair": { "Length (Size)": "Short", "Density": "Average", "Type": "Sleek / Straight" },
+      "Ears (hears)": { "Size": "Medium", "Shape": "Rounded (Often cropped, naturally floppy)" },
+      "Expressive Face": { "Common Expressions": "Engaged / Intense look" },
+      "Cranio-Facial Angle": { "Profile Angle": "Flat Profile (Brachycephalic)" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Wrinkled" }
+    }
+  },
+  {
+    "name": "Bullmastiff",
+    "type": "Dog Breed",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Square" },
+      "Forehead": { "Height": "Average", "Shape": "Flat", "Texture": "Wrinkled" },
+      "Eyes": { "Size": "Medium / Proportional", "Shape": "Almond-shaped", "Placement": "Wide-set", "Color": "Dark (Brown/Black)" },
+      "Eyelashes": { "Length (Size)": "Short", "Density (Sparse/Normal/Full)": "Normal / Average", "Curl": "Straight" },
+      "Nose": { "Length": "Short", "Width": "Broad / Wide", "Shape": "Flat" },
+      "Cheeks & Cheekbones": { "Cheeks": "Soft / Saggy (Jowls)" },
+      "Mouth": { "Shape & Size": "Wide, Full Lips (Jowls)" },
+      "Teeth": { "Prominence of Canine Teeth": "Not Visible", "Teeth Crowding/Spacing": "Proportional" },
+      "Jaw & Chin": { "Jawline Shape": "Strong / Square", "Chin": "Prominent" },
+      "Overall Jaw/Mouth Appearance": { "Bite": "Proportional (Scissor bite)" },
+      "Hair": { "Length (Size)": "Short", "Density": "Average", "Type": "Sleek / Straight" },
+      "Ears (hears)": { "Size": "Medium", "Shape": "Rounded (V-shaped, floppy)" },
+      "Expressive Face": { "Common Expressions": "Engaged / Intense look" },
+      "Cranio-Facial Angle": { "Profile Angle": "Flat Profile (Brachycephalic)" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Wrinkled" }
+    }
+  },
+  {
+    "name": "Komondor",
+    "type": "Dog Breed",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Round" },
+      "Forehead": { "Height": "Average", "Shape": "Rounded / Domed", "Texture": "Smooth (under fur)" },
+      "Eyes": { "Size": "Medium / Proportional", "Shape": "Almond-shaped", "Placement": "Proportional", "Color": "Dark (Brown/Black)" },
+      "Eyelashes": { "Length (Size)": "Long", "Density (Sparse/Normal/Full)": "Full / Lush", "Curl": "Straight" },
+      "Nose": { "Length": "Medium / Proportional", "Width": "Broad / Wide", "Shape": "Straight" },
+      "Cheeks & Cheekbones": { "Cheeks": "Full / Round" },
+      "Mouth": { "Shape & Size": "Wide, Full Lips" },
+      "Teeth": { "Prominence of Canine Teeth": "Not Visible", "Teeth Crowding/Spacing": "Proportional" },
+      "Jaw & Chin": { "Jawline Shape": "Strong / Square", "Chin": "Prominent" },
+      "Overall Jaw/Mouth Appearance": { "Bite": "Proportional (Scissor bite)" },
+      "Hair": { "Length (Size)": "Long", "Density": "Thick / Dense", "Type": "Wiry / Coarse (Cords)" },
+      "Ears (hears)": { "Size": "Medium", "Shape": "Rounded (Floppy)" },
+      "Expressive Face": { "Common Expressions": "Engaged / Intense look" },
+      "Cranio-Facial Angle": { "Profile Angle": "Average / Proportional Profile" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Smooth (under fur)" }
+    }
+  },
+  {
+    "name": "Chow Chow",
+    "type": "Dog Breed",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Round" },
+      "Forehead": { "Height": "Average", "Shape": "Flat", "Texture": "Wrinkled" },
+      "Eyes": { "Size": "Small", "Shape": "Almond-shaped, Deep-set", "Placement": "Proportional", "Color": "Dark (Brown/Black)" },
+      "Eyelashes": { "Length (Size)": "Average", "Density (Sparse/Normal/Full)": "Normal / Average", "Curl": "Straight" },
+      "Nose": { "Length": "Short", "Width": "Broad / Wide", "Shape": "Flat" },
+      "Cheeks & Cheekbones": { "Cheeks": "Full / Round" },
+      "Mouth": { "Shape & Size": "Wide, Full Lips" },
+      "Teeth": { "Prominence of Canine Teeth": "Not Visible", "Teeth Crowding/Spacing": "Proportional" },
+      "Jaw & Chin": { "Jawline Shape": "Strong / Square", "Chin": "Rounded" },
+      "Overall Jaw/Mouth Appearance": { "Bite": "Proportional (Scissor bite)" },
+      "Hair": { "Length (Size)": "Long", "Density": "Thick / Dense", "Type": "Curly / Fluffy" },
+      "Ears (hears)": { "Size": "Small", "Shape": "Pointy (Erect, rounded tips)" },
+      "Expressive Face": { "Common Expressions": "Engaged / Intense look" },
+      "Cranio-Facial Angle": { "Profile Angle": "Average / Proportional Profile" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Wrinkled" }
+    }
+  },
+  {
+    "name": "Brussels Griffon",
+    "type": "Dog Breed",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Round" },
+      "Forehead": { "Height": "High", "Shape": "Rounded / Domed", "Texture": "Smooth" },
+      "Eyes": { "Size": "Large", "Shape": "Round", "Placement": "Wide-set", "Color": "Dark (Brown/Black)" },
+      "Eyelashes": { "Length (Size)": "Average", "Density (Sparse/Normal/Full)": "Normal / Average", "Curl": "Straight" },
+      "Nose": { "Length": "Short", "Width": "Broad / Wide", "Shape": "Button (Small and rounded)" },
+      "Cheeks & Cheekbones": { "Cheeks": "Full / Round" },
+      "Mouth": { "Shape & Size": "Wide" },
+      "Teeth": { "Prominence of Canine Teeth": "Not Visible", "Teeth Crowding/Spacing": "Crowded" },
+      "Jaw & Chin": { "Jawline Shape": "Rounded", "Chin": "Prominent" },
+      "Overall Jaw/Mouth Appearance": { "Bite": "Underbite" },
+      "Hair": { "Length (Size)": "Medium", "Density": "Average", "Type": "Wiry / Coarse" },
+      "Facial Hair": { "Type": "Beard / Goatee, Mustache" },
+      "Ears (hears)": { "Size": "Small", "Shape": "Pointy (Semi-prick or cropped)" },
+      "Expressive Face": { "Common Expressions": "Engaged / Intense look" },
+      "Cranio-Facial Angle": { "Profile Angle": "Flat Profile (Brachycephalic)" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Smooth" }
+    }
+  },
+  {
+    "name": "Chinese Crested",
+    "type": "Dog Breed",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Long" },
+      "Forehead": { "Height": "Average", "Shape": "Sloped", "Texture": "Smooth" },
+      "Eyes": { "Size": "Medium / Proportional", "Shape": "Almond-shaped", "Placement": "Wide-set", "Color": "Dark (Brown/Black)" },
+      "Eyelashes": { "Length (Size)": "Long", "Density (Sparse/Normal/Full)": "Normal / Average", "Curl": "Straight" },
+      "Nose": { "Length": "Long", "Width": "Narrow / Slender", "Shape": "Straight" },
+      "Cheeks & Cheekbones": { "Cheekbones": "Defined / High" },
+      "Mouth": { "Shape & Size": "Narrow, Thin Lips" },
+      "Teeth": { "Prominence of Canine Teeth": "Not Visible", "Teeth Crowding/Spacing": "Proportional" },
+      "Jaw & Chin": { "Jawline Shape": "Defined / V-shaped", "Chin": "Receding" },
+      "Overall Jaw/Mouth Appearance": { "Bite": "Proportional (Scissor bite)" },
+      "Hair": { "Length (Size)": "Bald / No Hair", "Density": "Thin / Sparse", "Type": "Sleek / Straight (on head, feet, tail)" },
+      "Ears (hears)": { "Size": "Large", "Shape": "Pointy (Erect)" },
+      "Expressive Face": { "Common Expressions": "Engaged / Intense look" },
+      "Cranio-Facial Angle": { "Profile Angle": "Angled / Prominent Profile (Dolichocephalic)" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Smooth" }
+    }
+  },
+  {
+    "name": "Dandie Dinmont Terrier",
+    "type": "Dog Breed",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Round" },
+      "Forehead": { "Height": "High", "Shape": "Rounded / Domed", "Texture": "Smooth (under fur)" },
+      "Eyes": { "Size": "Large", "Shape": "Round", "Placement": "Wide-set", "Color": "Green/Hazel" },
+      "Eyelashes": { "Length (Size)": "Long", "Density (Sparse/Normal/Full)": "Full / Lush", "Curl": "Straight" },
+      "Nose": { "Length": "Medium / Proportional", "Width": "Broad / Wide", "Shape": "Straight" },
+      "Cheeks & Cheekbones": { "Cheeks": "Full / Round" },
+      "Mouth": { "Shape & Size": "Wide" },
+      "Teeth": { "Prominence of Canine Teeth": "Sharp / Prominent", "Teeth Crowding/Spacing": "Proportional" },
+      "Jaw & Chin": { "Jawline Shape": "Strong / Square", "Chin": "Prominent" },
+      "Overall Jaw/Mouth Appearance": { "Bite": "Proportional (Scissor bite)" },
+      "Hair": { "Length (Size)": "Medium", "Density": "Thick / Dense", "Type": "Wiry / Coarse (Crisp topknot)" },
+      "Ears (hears)": { "Size": "Large", "Shape": "Rounded (Floppy)" },
+      "Expressive Face": { "Common Expressions": "Engaged / Intense look" },
+      "Cranio-Facial Angle": { "Profile Angle": "Average / Proportional Profile" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Smooth (under fur)" }
+    }
+  },
+  {
+    "name": "Serra da Estrela (Estrela Mountain Dog)",
+    "type": "Dog Breed",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Long" },
+      "Forehead": { "Height": "Average", "Shape": "Sloped", "Texture": "Smooth (under fur)" },
+      "Eyes": { "Size": "Medium / Proportional", "Shape": "Almond-shaped", "Placement": "Proportional", "Color": "Amber/Gold" },
+      "Eyelashes": { "Length (Size)": "Average", "Density (Sparse/Normal/Full)": "Normal / Average", "Curl": "Straight" },
+      "Nose": { "Length": "Long", "Width": "Broad / Wide", "Shape": "Straight" },
+      "Cheeks & Cheekbones": { "Cheeks": "Full / Round", "Cheekbones": "Defined / High" },
+      "Mouth": { "Shape & Size": "Wide, Full Lips (Jowls)" },
+      "Teeth": { "Prominence of Canine Teeth": "Sharp / Prominent", "Teeth Crowding/Spacing": "Proportional" },
+      "Jaw & Chin": { "Jawline Shape": "Strong / Square", "Chin": "Prominent" },
+      "Overall Jaw/Mouth Appearance": { "Bite": "Proportional (Scissor bite)" },
+      "Hair": { "Length (Size)": "Long", "Density": "Thick / Dense", "Type": "Wavy / Flowing" },
+      "Ears (hears)": { "Size": "Medium", "Shape": "Rounded (Floppy, triangular)" },
+      "Expressive Face": { "Common Expressions": "Engaged / Intense look" },
+      "Cranio-Facial Angle": { "Profile Angle": "Average / Proportional Profile" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Smooth (under fur)" }
+    }
+  },
+  {
+    "name": "Pastor Alentejano (Rafeiro do Alentejo)",
+    "type": "Dog Breed",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Long / Square" },
+      "Forehead": { "Height": "Average", "Shape": "Sloped", "Texture": "Smooth" },
+      "Eyes": { "Size": "Small", "Shape": "Almond-shaped", "Placement": "Proportional", "Color": "Dark (Brown/Black)" },
+      "Eyelashes": { "Length (Size)": "Average", "Density (Sparse/Normal/Full)": "Normal / Average", "Curl": "Straight" },
+      "Nose": { "Length": "Long", "Width": "Broad / Wide", "Shape": "Straight" },
+      "Cheeks & Cheekbones": { "Cheeks": "Soft / Saggy (Jowls)" },
+      "Mouth": { "Shape & Size": "Wide, Full Lips (Jowls), Downturned" },
+      "Teeth": { "Prominence of Canine Teeth": "Sharp / Prominent", "Teeth Crowding/Spacing": "Proportional" },
+      "Jaw & Chin": { "Jawline Shape": "Strong / Square", "Chin": "Prominent" },
+      "Overall Jaw/Mouth Appearance": { "Bite": "Proportional (Scissor bite)" },
+      "Hair": { "Length (Size)": "Medium", "Density": "Thick / Dense", "Type": "Sleek / Straight" },
+      "Ears (hears)": { "Size": "Medium", "Shape": "Rounded (Floppy, triangular)" },
+      "Expressive Face": { "Common Expressions": "Engaged / Intense look" },
+      "Cranio-Facial Angle": { "Profile Angle": "Average / Proportional Profile" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Smooth" }
+    }
+  },
+  {
+    "name": "Bull Terrier",
+    "type": "Dog Breed",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Long (Egg-shaped)" },
+      "Forehead": { "Height": "Low", "Shape": "Sloped (No stop)", "Texture": "Smooth" },
+      "Eyes": { "Size": "Small", "Shape": "Almond-shaped (Triangular)", "Placement": "Close-set", "Color": "Dark (Brown/Black)" },
+      "Eyelashes": { "Length (Size)": "Short", "Density (Sparse/Normal/Full)": "Normal / Average", "Curl": "Straight" },
+      "Nose": { "Length": "Medium / Proportional", "Width": "Broad / Wide", "Shape": "Straight (Roman nose)" },
+      "Cheeks & Cheekbones": { "Cheeks": "Full / Round" },
+      "Mouth": { "Shape & Size": "Wide, Thin Lips" },
+      "Teeth": { "Prominence of Canine Teeth": "Sharp / Prominent", "Teeth Crowding/Spacing": "Proportional" },
+      "Jaw & Chin": { "Jawline Shape": "Strong / Square", "Chin": "Prominent" },
+      "Overall Jaw/Mouth Appearance": { "Bite": "Proportional (Scissor bite)" },
+      "Hair": { "Length (Size)": "Short", "Density": "Average", "Type": "Sleek / Straight" },
+      "Ears (hears)": { "Size": "Small", "Shape": "Pointy (Erect)" },
+      "Expressive Face": { "Common Expressions": "Engaged / Intense look" },
+      "Cranio-Facial Angle": { "Profile Angle": "Angled / Prominent Profile" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Smooth" }
+    }
+  },
+  {
+    "name": "Chihuahua (Apple Head)",
+    "type": "Dog Breed",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Round" },
+      "Forehead": { "Height": "High", "Shape": "Rounded / Domed", "Texture": "Smooth" },
+      "Eyes": { "Size": "Large", "Shape": "Round", "Placement": "Wide-set", "Color": "Dark (Brown/Black)" },
+      "Eyelashes": { "Length (Size)": "Short", "Density (Sparse/Normal/Full)": "Normal / Average", "Curl": "Straight" },
+      "Nose": { "Length": "Short", "Width": "Narrow / Slender", "Shape": "Button (Small and rounded)" },
+      "Cheeks & Cheekbones": { "Cheeks": "Full / Round" },
+      "Mouth": { "Shape & Size": "Narrow, Thin Lips" },
+      "Teeth": { "Prominence of Canine Teeth": "Not Visible", "Teeth Crowding/Spacing": "Crowded" },
+      "Jaw & Chin": { "Jawline Shape": "Defined / V-shaped", "Chin": "Receding" },
+      "Overall Jaw/Mouth Appearance": { "Bite": "Proportional (Scissor bite)" },
+      "Hair": { "Length (Size)": "Short", "Density": "Average", "Type": "Sleek / Straight" },
+      "Ears (hears)": { "Size": "Large", "Shape": "Pointy (Erect)" },
+      "Expressive Face": { "Common Expressions": "Engaged / Intense look" },
+      "Cranio-Facial Angle": { "Profile Angle": "Flat Profile (Brachycephalic)" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Smooth" }
+    }
+  },
+  {
+    "name": "Maine Coon",
+    "type": "Cat Breed",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Square" },
+      "Forehead": { "Height": "Average", "Shape": "Sloped", "Texture": "Smooth (under fur)" },
+      "Eyes": { "Size": "Large", "Shape": "Almond-shaped", "Placement": "Wide-set", "Color": "Green/Hazel, Amber/Gold" },
+      "Eyelashes": { "Length (Size)": "Long", "Density (Sparse/Normal/Full)": "Full / Lush", "Curl": "Straight" },
+      "Nose": { "Length": "Medium / Proportional", "Width": "Broad / Wide", "Shape": "Straight" },
+      "Cheeks & Cheekbones": { "Cheekbones": "Defined / High" },
+      "Mouth": { "Shape & Size": "Wide, Thin Lips" },
+      "Teeth": { "Prominence of Canine Teeth": "Sharp / Prominent", "Teeth Crowding/Spacing": "Proportional" },
+      "Jaw & Chin": { "Jawline Shape": "Strong / Square", "Chin": "Prominent" },
+      "Overall Jaw/Mouth Appearance": { "Bite": "Proportional (Scissor bite)" },
+      "Hair": { "Length (Size)": "Long", "Density": "Thick / Dense", "Type": "Wavy / Flowing (Shaggy)" },
+      "Facial Hair": { "Type": "Beard / Goatee (Ruff around neck)" },
+      "Ears (hears)": { "Size": "Large", "Shape": "Pointy (Tufted tips)" },
+      "Expressive Face": { "Common Expressions": "Engaged / Intense look" },
+      "Cranio-Facial Angle": { "Profile Angle": "Average / Proportional Profile" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Smooth (under fur)" }
+    }
+  },
+  {
+    "name": "Scottish Fold",
+    "type": "Cat Breed",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Round" },
+      "Forehead": { "Height": "Average", "Shape": "Rounded / Domed", "Texture": "Smooth (under fur)" },
+      "Eyes": { "Size": "Large", "Shape": "Round", "Placement": "Wide-set", "Color": "Varies (Amber/Gold, Green/Hazel, Light)" },
+      "Eyelashes": { "Length (Size)": "Average", "Density (Sparse/Normal/Full)": "Normal / Average", "Curl": "Straight" },
+      "Nose": { "Length": "Short", "Width": "Medium", "Shape": "Button (Small and rounded)" },
+      "Cheeks & Cheekbones": { "Cheeks": "Full / Round" },
+      "Mouth": { "Shape & Size": "Narrow, Downturned" },
+      "Teeth": { "Prominence of Canine Teeth": "Not Visible", "Teeth Crowding/Spacing": "Proportional" },
+      "Jaw & Chin": { "Jawline Shape": "Rounded", "Chin": "Rounded" },
+      "Overall Jaw/Mouth Appearance": { "Bite": "Proportional" },
+      "Hair": { "Length (Size)": "Short", "Density": "Thick / Dense", "Type": "Sleek / Straight" },
+      "Ears (hears)": { "Size": "Small", "Shape": "Rounded (Folded forward)" },
+      "Expressive Face": { "Common Expressions": "\"Puppy-dog eyes\"" },
+      "Cranio-Facial Angle": { "Profile Angle": "Average / Proportional Profile" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Smooth (under fur)" }
+    }
+  },
+  {
+    "name": "Bengal",
+    "type": "Cat Breed",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Long (Modified wedge)" },
+      "Forehead": { "Height": "Average", "Shape": "Sloped", "Texture": "Smooth" },
+      "Eyes": { "Size": "Large", "Shape": "Almond-shaped", "Placement": "Proportional", "Color": "Green/Hazel, Amber/Gold" },
+      "Eyelashes": { "Length (Size)": "Short", "Density (Sparse/Normal/Full)": "Normal / Average", "Curl": "Straight" },
+      "Nose": { "Length": "Medium / Proportional", "Width": "Broad / Wide", "Shape": "Straight" },
+      "Cheeks & Cheekbones": { "Cheekbones": "Defined / High" },
+      "Mouth": { "Shape & Size": "Wide, Thin Lips" },
+      "Teeth": { "Prominence of Canine Teeth": "Sharp / Prominent", "Teeth Crowding/Spacing": "Proportional" },
+      "Jaw & Chin": { "Jawline Shape": "Strong / Square", "Chin": "Prominent" },
+      "Overall Jaw/Mouth Appearance": { "Bite": "Proportional (Scissor bite)" },
+      "Hair": { "Length (Size)": "Short", "Density": "Average", "Type": "Sleek / Straight" },
+      "Ears (hears)": { "Size": "Medium", "Shape": "Rounded" },
+      "Expressive Face": { "Common Expressions": "Engaged / Intense look" },
+      "Cranio-Facial Angle": { "Profile Angle": "Angled / Prominent Profile" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Smooth" }
+    }
+  },
+  {
+    "name": "Ragdoll",
+    "type": "Cat Breed",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Round (Broad wedge)" },
+      "Forehead": { "Height": "Average", "Shape": "Flat", "Texture": "Smooth (under fur)" },
+      "Eyes": { "Size": "Large", "Shape": "Almond-shaped", "Placement": "Wide-set", "Color": "Light (Blue/Gray)" },
+      "Eyelashes": { "Length (Size)": "Average", "Density (Sparse/Normal/Full)": "Normal / Average", "Curl": "Straight" },
+      "Nose": { "Length": "Medium / Proportional", "Width": "Medium", "Shape": "Straight" },
+      "Cheeks & Cheekbones": { "Cheeks": "Full / Round" },
+      "Mouth": { "Shape & Size": "Wide, Thin Lips" },
+      "Teeth": { "Prominence of Canine Teeth": "Not Visible", "Teeth Crowding/Spacing": "Proportional" },
+      "Jaw & Chin": { "Jawline Shape": "Rounded", "Chin": "Rounded" },
+      "Overall Jaw/Mouth Appearance": { "Bite": "Proportional (Scissor bite)" },
+      "Hair": { "Length (Size)": "Medium", "Density": "Thick / Dense", "Type": "Sleek / Straight" },
+      "Ears (hears)": { "Size": "Medium", "Shape": "Rounded" },
+      "Expressive Face": { "Common Expressions": "Engaged / Intense look" },
+      "Cranio-Facial Angle": { "Profile Angle": "Average / Proportional Profile" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Smooth (under fur)" }
+    }
+  },
+  {
+    "name": "Oriental Shorthair",
+    "type": "Cat Breed",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Long (Extreme Wedge-shaped)" },
+      "Forehead": { "Height": "Average", "Shape": "Flat", "Texture": "Smooth" },
+      "Eyes": { "Size": "Large", "Shape": "Almond-shaped", "Placement": "Proportional", "Color": "Green/Hazel" },
+      "Eyelashes": { "Length (Size)": "Short", "Density (Sparse/Normal/Full)": "Normal / Average", "Curl": "Straight" },
+      "Nose": { "Length": "Long", "Width": "Narrow / Slender", "Shape": "Straight" },
+      "Cheeks & Cheekbones": { "Cheekbones": "Defined / High" },
+      "Mouth": { "Shape & Size": "Narrow, Thin Lips" },
+      "Teeth": { "Prominence of Canine Teeth": "Not Visible", "Teeth Crowding/Spacing": "Proportional" },
+      "Jaw & Chin": { "Jawline Shape": "Defined / V-shaped", "Chin": "Receding" },
+      "Overall Jaw/Mouth Appearance": { "Bite": "Proportional (Scissor bite)" },
+      "Hair": { "Length (Size)": "Short", "Density": "Thin / Sparse", "Type": "Sleek / Straight" },
+      "Ears (hears)": { "Size": "Large", "Shape": "Pointy" },
+      "Expressive Face": { "Common Expressions": "Engaged / Intense look" },
+      "Cranio-Facial Angle": { "Profile Angle": "Angled / Prominent Profile" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Smooth" }
+    }
+  },
+  {
+    "name": "Devon Rex",
+    "type": "Cat Breed",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Heart-shaped (Pixie-like)" },
+      "Forehead": { "Height": "Average", "Shape": "Rounded", "Texture": "Smooth (under fur)" },
+      "Eyes": { "Size": "Large", "Shape": "Round", "Placement": "Wide-set", "Color": "Varies (Amber/Gold, Green/Hazel, Light)" },
+      "Eyelashes": { "Length (Size)": "Short", "Density (Sparse/Normal/Full)": "Sparse", "Curl": "Straight" },
+      "Nose": { "Length": "Short", "Width": "Medium", "Shape": "Button (Small and rounded)" },
+      "Cheeks & Cheekbones": { "Cheekbones": "Defined / High" },
+      "Mouth": { "Shape & Size": "Narrow, Thin Lips" },
+      "Teeth": { "Prominence of Canine Teeth": "Not Visible", "Teeth Crowding/Spacing": "Proportional" },
+      "Jaw & Chin": { "Jawline Shape": "Defined / V-shaped", "Chin": "Prominent" },
+      "Overall Jaw/Mouth Appearance": { "Bite": "Proportional" },
+      "Hair": { "Length (Size)": "Short", "Density": "Thin / Sparse", "Type": "Wavy / Flowing" },
+      "Ears (hears)": { "Size": "Large", "Shape": "Rounded" },
+      "Expressive Face": { "Common Expressions": "Engaged / Intense look" },
+      "Cranio-Facial Angle": { "Profile Angle": "Average / Proportional Profile" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Smooth (under fur)" }
+    }
+  },
+  {
+    "name": "Exotic Shorthair",
+    "type": "Cat Breed",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Round" },
+      "Forehead": { "Height": "Low", "Shape": "Rounded / Domed", "Texture": "Smooth (under fur)" },
+      "Eyes": { "Size": "Large", "Shape": "Round", "Placement": "Wide-set", "Color": "Varies (Amber/Gold, Green/Hazel, Light)" },
+      "Eyelashes": { "Length (Size)": "Average", "Density (Sparse/Normal/Full)": "Normal / Average", "Curl": "Straight" },
+      "Nose": { "Length": "Short", "Width": "Broad / Wide", "Shape": "Button (Small and rounded)" },
+      "Cheeks & Cheekbones": { "Cheeks": "Full / Round" },
+      "Mouth": { "Shape & Size": "Narrow, Downturned" },
+      "Teeth": { "Prominence of Canine Teeth": "Not Visible", "Teeth Crowding/Spacing": "Crowded" },
+      "Jaw & Chin": { "Jawline Shape": "Rounded", "Chin": "Receding" },
+      "Overall Jaw/Mouth Appearance": { "Bite": "Underbite (common)" },
+      "Hair": { "Length (Size)": "Short", "Density": "Thick / Dense", "Type": "Sleek / Straight" },
+      "Ears (hears)": { "Size": "Small", "Shape": "Rounded" },
+      "Expressive Face": { "Common Expressions": "Engaged / Intense look" },
+      "Cranio-Facial Angle": { "Profile Angle": "Flat Profile (Brachycephalic)" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Smooth (under fur)" }
+    }
+  },
+  {
+    "name": "American Curl",
+    "type": "Cat Breed",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Long (Modified Wedge)" },
+      "Forehead": { "Height": "Average", "Shape": "Sloped", "Texture": "Smooth (under fur)" },
+      "Eyes": { "Size": "Large", "Shape": "Almond-shaped", "Placement": "Proportional", "Color": "Varies (Amber/Gold, Green/Hazel, Light)" },
+      "Eyelashes": { "Length (Size)": "Average", "Density (Sparse/Normal/Full)": "Normal / Average", "Curl": "Straight" },
+      "Nose": { "Length": "Medium / Proportional", "Width": "Medium", "Shape": "Straight" },
+      "Cheeks & Cheekbones": { "Cheekbones": "Defined / High" },
+      "Mouth": { "Shape & Size": "Wide, Thin Lips" },
+      "Teeth": { "Prominence of Canine Teeth": "Not Visible", "Teeth Crowding/Spacing": "Proportional" },
+      "Jaw & Chin": { "Jawline Shape": "Defined / V-shaped", "Chin": "Rounded" },
+      "Overall Jaw/Mouth Appearance": { "Bite": "Proportional (Scissor bite)" },
+      "Hair": { "Length (Size)": "Long", "Density": "Average", "Type": "Sleek / Straight" },
+      "Ears (hears)": { "Size": "Medium", "Shape": "Pointy (Curled back)" },
+      "Expressive Face": { "Common Expressions": "Engaged / Intense look" },
+      "Cranio-Facial Angle": { "Profile Angle": "Average / Proportional Profile" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Smooth (under fur)" }
+    }
+  },
+  {
+    "name": "Cow",
+    "type": "Farm Animal",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Long" },
+      "Forehead": { "Height": "Average", "Shape": "Flat", "Texture": "Smooth" },
+      "Eyes": { "Size": "Large", "Shape": "Round", "Placement": "Wide-set", "Color": "Dark (Brown/Black)" },
+      "Eyelashes": { "Length (Size)": "Long", "Density (Sparse/Normal/Full)": "Full / Lush", "Curl": "Straight" },
+      "Nose": { "Length": "Medium / Proportional", "Width": "Broad / Wide", "Shape": "Flat" },
+      "Cheeks & Cheekbones": { "Cheeks": "Full / Round" },
+      "Mouth": { "Shape & Size": "Wide, Full Lips" },
+      "Teeth": { "Prominence of Canine Teeth": "Not Visible" },
+      "Jaw & Chin": { "Jawline Shape": "Strong / Square", "Chin": "Rounded" },
+      "Overall Jaw/Mouth Appearance": { "Bite": "Proportional" },
+      "Hair": { "Length (Size)": "Short", "Density": "Average", "Type": "Sleek / Straight" },
+      "Ears (hears)": { "Size": "Large", "Shape": "Rounded (Floppy)" },
+      "Expressive Face": { "Common Expressions": "Engaged / Intense look" },
+      "Cranio-Facial Angle": { "Profile Angle": "Average / Proportional Profile" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Smooth" }
+    }
+  },
+  {
+    "name": "Pig",
+    "type": "Farm Animal",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Long" },
+      "Forehead": { "Height": "Low", "Shape": "Sloped", "Texture": "Smooth" },
+      "Eyes": { "Size": "Small", "Shape": "Round", "Placement": "Close-set", "Color": "Dark (Brown/Black)" },
+      "Eyelashes": { "Length (Size)": "Average", "Density (Sparse/Normal/Full)": "Normal / Average", "Curl": "Straight" },
+      "Nose": { "Length": "Medium / Proportional", "Width": "Broad / Wide", "Shape": "Flat (Snout disc)" },
+      "Cheeks & Cheekbones": { "Cheeks": "Full / Round" },
+      "Mouth": { "Shape & Size": "Wide, Thin Lips" },
+      "Teeth": { "Prominence of Canine Teeth": "Sharp / Prominent (Tusks in boars)" },
+      "Jaw & Chin": { "Jawline Shape": "Rounded", "Chin": "Receding" },
+      "Overall Jaw/Mouth Appearance": { "Bite": "Proportional" },
+      "Hair": { "Length (Size)": "Short", "Density": "Thin / Sparse", "Type": "Wiry / Coarse" },
+      "Ears (hears)": { "Size": "Large", "Shape": "Pointy (Floppy or Erect)" },
+      "Expressive Face": { "Common Expressions": "Engaged / Intense look" },
+      "Cranio-Facial Angle": { "Profile Angle": "Angled / Prominent Profile" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Smooth" }
+    }
+  },
+  {
+    "name": "Sheep",
+    "type": "Farm Animal",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Long" },
+      "Forehead": { "Height": "Average", "Shape": "Rounded / Domed", "Texture": "Smooth (under wool)" },
+      "Eyes": { "Size": "Medium / Proportional", "Shape": "Almond-shaped", "Placement": "Wide-set", "Color": "Amber/Gold" },
+      "Eyelashes": { "Length (Size)": "Average", "Density (Sparse/Normal/Full)": "Normal / Average", "Curl": "Straight" },
+      "Nose": { "Length": "Medium / Proportional", "Width": "Medium", "Shape": "Straight (Roman nose common)" },
+      "Cheeks & Cheekbones": { "Cheeks": "Full / Round (woolly)" },
+      "Mouth": { "Shape & Size": "Narrow, Thin Lips" },
+      "Teeth": { "Prominence of Canine Teeth": "Not Visible" },
+      "Jaw & Chin": { "Jawline Shape": "Rounded", "Chin": "Receding" },
+      "Overall Jaw/Mouth Appearance": { "Bite": "Proportional" },
+      "Hair": { "Length (Size)": "Long", "Density": "Thick / Dense", "Type": "Curly / Fluffy" },
+      "Ears (hears)": { "Size": "Medium", "Shape": "Rounded (Floppy)" },
+      "Expressive Face": { "Common Expressions": "Engaged / Intense look" },
+      "Cranio-Facial Angle": { "Profile Angle": "Angled / Prominent Profile" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Smooth (under wool)" }
+    }
+  },
+  {
+    "name": "Goat",
+    "type": "Farm Animal",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Long" },
+      "Forehead": { "Height": "Average", "Shape": "Flat", "Texture": "Smooth" },
+      "Eyes": { "Size": "Medium / Proportional", "Shape": "Almond-shaped", "Placement": "Wide-set", "Color": "Amber/Gold" },
+      "Eyelashes": { "Length (Size)": "Average", "Density (Sparse/Normal/Full)": "Normal / Average", "Curl": "Straight" },
+      "Nose": { "Length": "Medium / Proportional", "Width": "Narrow / Slender", "Shape": "Straight" },
+      "Cheeks & Cheekbones": { "Cheekbones": "Defined / High" },
+      "Mouth": { "Shape & Size": "Narrow, Thin Lips" },
+      "Teeth": { "Prominence of Canine Teeth": "Not Visible" },
+      "Jaw & Chin": { "Jawline Shape": "Defined / V-shaped", "Chin": "Prominent" },
+      "Overall Jaw/Mouth Appearance": { "Bite": "Proportional" },
+      "Hair": { "Length (Size)": "Short", "Density": "Average", "Type": "Wiry / Coarse" },
+      "Facial Hair": { "Type": "Beard / Goatee" },
+      "Ears (hears)": { "Size": "Medium", "Shape": "Pointy (Erect or Floppy)" },
+      "Expressive Face": { "Common Expressions": "Engaged / Intense look" },
+      "Cranio-Facial Angle": { "Profile Angle": "Angled / Prominent Profile" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Smooth" }
+    }
+  },
+  {
+    "name": "Horse",
+    "type": "Farm Animal",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Long" },
+      "Forehead": { "Height": "Average", "Shape": "Flat", "Texture": "Smooth" },
+      "Eyes": { "Size": "Large", "Shape": "Round", "Placement": "Wide-set", "Color": "Dark (Brown/Black)" },
+      "Eyelashes": { "Length (Size)": "Long", "Density (Sparse/Normal/Full)": "Full / Lush", "Curl": "Straight" },
+      "Nose": { "Length": "Long", "Width": "Broad / Wide", "Shape": "Straight" },
+      "Cheeks & Cheekbones": { "Cheekbones": "Defined / High" },
+      "Mouth": { "Shape & Size": "Wide, Full Lips" },
+      "Teeth": { "Prominence of Canine Teeth": "Not Visible" },
+      "Jaw & Chin": { "Jawline Shape": "Strong / Square", "Chin": "Prominent" },
+      "Overall Jaw/Mouth Appearance": { "Bite": "Proportional" },
+      "Hair": { "Length (Size)": "Long", "Density": "Thick / Dense", "Type": "Wavy / Flowing (Mane)" },
+      "Ears (hears)": { "Size": "Medium", "Shape": "Pointy (Erect)" },
+      "Expressive Face": { "Common Expressions": "Engaged / Intense look" },
+      "Cranio-Facial Angle": { "Profile Angle": "Angled / Prominent Profile" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Smooth" }
+    }
+  },
+  {
+    "name": "Chicken",
+    "type": "Farm Animal",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Round" },
+      "Forehead": { "Height": "Low", "Shape": "Sloped", "Texture": "Smooth" },
+      "Eyes": { "Size": "Small", "Shape": "Round", "Placement": "Wide-set", "Color": "Amber/Gold" },
+      "Nose": { "Length": "Short", "Width": "Narrow / Slender", "Shape": "Aquiline / Hooked (Beak)" },
+      "Cheeks & Cheekbones": { "Cheeks": "Full / Round" },
+      "Mouth": { "Shape & Size": "Narrow (Beak)" },
+      "Teeth": { "Prominence of Canine Teeth": "Not Visible" },
+      "Jaw & Chin": { "Jawline Shape": "Defined / V-shaped", "Chin": "Receding" },
+      "Overall Jaw/Mouth Appearance": { "Bite": "Proportional" },
+      "Hair": { "Length (Size)": "Medium", "Density": "Thick / Dense", "Type": "Wavy / Flowing (Feathers)" },
+      "Ears (hears)": { "Size": "Small (Earlobes)" },
+      "Expressive Face": { "Common Expressions": "Engaged / Intense look" },
+      "Cranio-Facial Angle": { "Profile Angle": "Angled / Prominent Profile" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Smooth" }
+    }
+  },
+  {
+    "name": "Jaguar",
+    "type": "Jungle Animal",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Round" },
+      "Forehead": { "Height": "Low", "Shape": "Sloped", "Texture": "Smooth (under fur)" },
+      "Eyes": { "Size": "Large", "Shape": "Round", "Placement": "Proportional", "Color": "Amber/Gold" },
+      "Nose": { "Length": "Short", "Width": "Broad / Wide", "Shape": "Straight" },
+      "Cheeks & Cheekbones": { "Cheeks": "Full / Round" },
+      "Mouth": { "Shape & Size": "Wide, Thin Lips" },
+      "Teeth": { "Prominence of Canine Teeth": "Sharp / Prominent" },
+      "Jaw & Chin": { "Jawline Shape": "Strong / Square", "Chin": "Prominent" },
+      "Overall Jaw/Mouth Appearance": { "Bite": "Proportional" },
+      "Hair": { "Length (Size)": "Short", "Density": "Thick / Dense", "Type": "Sleek / Straight" },
+      "Ears (hears)": { "Size": "Small", "Shape": "Rounded" },
+      "Expressive Face": { "Common Expressions": "Engaged / Intense look" },
+      "Cranio-Facial Angle": { "Profile Angle": "Average / Proportional Profile" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Smooth" }
+    }
+  },
+  {
+    "name": "Gorilla",
+    "type": "Jungle Animal",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Square" },
+      "Forehead": { "Height": "Low", "Shape": "Sloped (prominent brow ridge)", "Texture": "Wrinkled" },
+      "Eyes": { "Size": "Small", "Shape": "Deep-set", "Placement": "Close-set", "Color": "Dark (Brown/Black)" },
+      "Nose": { "Length": "Short", "Width": "Broad / Wide", "Shape": "Flat" },
+      "Cheeks & Cheekbones": { "Cheeks": "Full / Round" },
+      "Mouth": { "Shape & Size": "Wide, Thin Lips" },
+      "Teeth": { "Prominence of Canine Teeth": "Sharp / Prominent (in males)" },
+      "Jaw & Chin": { "Jawline Shape": "Strong / Square", "Chin": "Receding" },
+      "Overall Jaw/Mouth Appearance": { "Bite": "Proportional" },
+      "Hair": { "Length (Size)": "Short", "Density": "Thick / Dense", "Type": "Wiry / Coarse" },
+      "Ears (hears)": { "Size": "Small", "Shape": "Rounded" },
+      "Expressive Face": { "Common Expressions": "Engaged / Intense look" },
+      "Cranio-Facial Angle": { "Profile Angle": "Flat Profile" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Wrinkled" }
+    }
+  },
+  {
+    "name": "Tiger",
+    "type": "Jungle Animal",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Round" },
+      "Forehead": { "Height": "Average", "Shape": "Rounded / Domed", "Texture": "Smooth (under fur)" },
+      "Eyes": { "Size": "Medium / Proportional", "Shape": "Round", "Placement": "Proportional", "Color": "Amber/Gold" },
+      "Nose": { "Length": "Medium / Proportional", "Width": "Broad / Wide", "Shape": "Straight" },
+      "Cheeks & Cheekbones": { "Cheeks": "Full / Round" },
+      "Mouth": { "Shape & Size": "Wide, Thin Lips" },
+      "Teeth": { "Prominence of Canine Teeth": "Sharp / Prominent" },
+      "Jaw & Chin": { "Jawline Shape": "Strong / Square", "Chin": "Prominent" },
+      "Overall Jaw/Mouth Appearance": { "Bite": "Proportional" },
+      "Hair": { "Length (Size)": "Short", "Density": "Thick / Dense", "Type": "Sleek / Straight" },
+      "Facial Hair": { "Type": "Sideburns (Ruff)" },
+      "Ears (hears)": { "Size": "Small", "Shape": "Rounded" },
+      "Expressive Face": { "Common Expressions": "Engaged / Intense look" },
+      "Cranio-Facial Angle": { "Profile Angle": "Average / Proportional Profile" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Smooth" }
+    }
+  },
+  {
+    "name": "Orangutan",
+    "type": "Jungle Animal",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Oval" },
+      "Forehead": { "Height": "High", "Shape": "Sloped", "Texture": "Smooth" },
+      "Eyes": { "Size": "Small", "Shape": "Round", "Placement": "Close-set", "Color": "Dark (Brown/Black)" },
+      "Nose": { "Length": "Short", "Width": "Medium", "Shape": "Flat" },
+      "Cheeks & Cheekbones": { "Cheeks": "Soft / Saggy (Flanges in males)" },
+      "Mouth": { "Shape & Size": "Wide, Thin Lips" },
+      "Teeth": { "Prominence of Canine Teeth": "Not Visible" },
+      "Jaw & Chin": { "Jawline Shape": "Rounded", "Chin": "Receding" },
+      "Overall Jaw/Mouth Appearance": { "Bite": "Proportional" },
+      "Hair": { "Length (Size)": "Long", "Density": "Average", "Type": "Wavy / Flowing" },
+      "Ears (hears)": { "Size": "Small", "Shape": "Rounded" },
+      "Expressive Face": { "Common Expressions": "Engaged / Intense look" },
+      "Cranio-Facial Angle": { "Profile Angle": "Angled / Prominent Profile" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Smooth" }
+    }
+  },
+  {
+    "name": "Sloth",
+    "type": "Jungle Animal",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Round" },
+      "Forehead": { "Height": "Low", "Shape": "Rounded / Domed", "Texture": "Smooth (under fur)" },
+      "Eyes": { "Size": "Small", "Shape": "Round", "Placement": "Proportional", "Color": "Dark (Brown/Black)" },
+      "Nose": { "Length": "Short", "Width": "Medium", "Shape": "Button (Small and rounded)" },
+      "Cheeks & Cheekbones": { "Cheeks": "Full / Round" },
+      "Mouth": { "Shape & Size": "Narrow, Smile-like appearance" },
+      "Teeth": { "Prominence of Canine Teeth": "Not Visible" },
+      "Jaw & Chin": { "Jawline Shape": "Rounded", "Chin": "Receding" },
+      "Overall Jaw/Mouth Appearance": { "Bite": "Proportional" },
+      "Hair": { "Length (Size)": "Long", "Density": "Thick / Dense", "Type": "Wiry / Coarse" },
+      "Ears (hears)": { "Size": "Small", "Shape": "Rounded" },
+      "Expressive Face": { "Common Expressions": "Natural smile-like appearance" },
+      "Cranio-Facial Angle": { "Profile Angle": "Flat Profile" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Smooth" }
+    }
+  },
+  {
+    "name": "Dolphin",
+    "type": "Ocean Animal",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Long" },
+      "Forehead": { "Height": "High", "Shape": "Rounded / Domed", "Texture": "Smooth" },
+      "Eyes": { "Size": "Small", "Shape": "Round", "Placement": "Proportional", "Color": "Dark (Brown/Black)" },
+      "Nose": { "Length": "Long", "Width": "Narrow / Slender", "Shape": "Straight" },
+      "Mouth": { "Shape & Size": "Wide, Smile-like appearance" },
+      "Teeth": { "Prominence of Canine Teeth": "Sharp / Prominent" },
+      "Jaw & Chin": { "Jawline Shape": "Defined / V-shaped", "Chin": "Prominent" },
+      "Hair": { "Length (Size)": "Bald / No Hair" },
+      "Ears (hears)": { "Size": "Small (Internal, not visible)" },
+      "Cranio-Facial Angle": { "Profile Angle": "Angled / Prominent Profile" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Smooth" }
+    }
+  },
+  {
+    "name": "Humpback Whale",
+    "type": "Ocean Animal",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Long" },
+      "Forehead": { "Height": "Low", "Shape": "Flat", "Texture": "Wrinkled" },
+      "Eyes": { "Size": "Small", "Shape": "Round", "Placement": "Wide-set", "Color": "Dark (Brown/Black)" },
+      "Nose": { "Length": "Short", "Width": "Broad / Wide", "Shape": "Flat" },
+      "Mouth": { "Shape & Size": "Wide, Downturned" },
+      "Teeth": { "Prominence of Canine Teeth": "Not Visible (Baleen)" },
+      "Jaw & Chin": { "Jawline Shape": "Strong / Square", "Chin": "Prominent" },
+      "Hair": { "Length (Size)": "Bald / No Hair" },
+      "Ears (hears)": { "Size": "Small (Internal, not visible)" },
+      "Cranio-Facial Angle": { "Profile Angle": "Average / Proportional Profile" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Wrinkled" }
+    }
+  },
+  {
+    "name": "Great White Shark",
+    "type": "Ocean Animal",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Long" },
+      "Forehead": { "Height": "Low", "Shape": "Sloped", "Texture": "Smooth" },
+      "Eyes": { "Size": "Small", "Shape": "Round", "Placement": "Proportional", "Color": "Dark (Brown/Black)" },
+      "Nose": { "Length": "Long", "Width": "Narrow / Slender", "Shape": "Straight" },
+      "Mouth": { "Shape & Size": "Wide, Downturned" },
+      "Teeth": { "Prominence of Canine Teeth": "Sharp / Prominent" },
+      "Jaw & Chin": { "Jawline Shape": "Defined / V-shaped", "Chin": "Prominent" },
+      "Hair": { "Length (Size)": "Bald / No Hair" },
+      "Ears (hears)": { "Size": "Small (Internal, not visible)" },
+      "Cranio-Facial Angle": { "Profile Angle": "Angled / Prominent Profile" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Smooth" }
+    }
+  },
+  {
+    "name": "Sea Turtle",
+    "type": "Ocean Animal",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Round" },
+      "Forehead": { "Height": "Low", "Shape": "Sloped", "Texture": "Smooth (Scaly)" },
+      "Eyes": { "Size": "Medium / Proportional", "Shape": "Round", "Placement": "Wide-set", "Color": "Dark (Brown/Black)" },
+      "Nose": { "Length": "Short", "Width": "Medium", "Shape": "Aquiline / Hooked (Beak)" },
+      "Mouth": { "Shape & Size": "Narrow, Downturned" },
+      "Teeth": { "Prominence of Canine Teeth": "Not Visible (Beak)" },
+      "Jaw & Chin": { "Jawline Shape": "Rounded", "Chin": "Receding" },
+      "Hair": { "Length (Size)": "Bald / No Hair" },
+      "Ears (hears)": { "Size": "Small (Internal, not visible)" },
+      "Cranio-Facial Angle": { "Profile Angle": "Average / Proportional Profile" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Smooth" }
+    }
+  },
+  {
+    "name": "Octopus",
+    "type": "Ocean Animal",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Round" },
+      "Forehead": { "Height": "High", "Shape": "Rounded / Domed", "Texture": "Smooth" },
+      "Eyes": { "Size": "Large", "Shape": "Round", "Placement": "Wide-set", "Color": "Amber/Gold" },
+      "Mouth": { "Shape & Size": "Narrow (Beak)" },
+      "Teeth": { "Prominence of Canine Teeth": "Not Visible (Beak)" },
+      "Hair": { "Length (Size)": "Bald / No Hair" },
+      "Cranio-Facial Angle": { "Profile Angle": "Flat Profile" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Smooth" }
+    }
+  },
+  {
+    "name": "Jellyfish",
+    "type": "Ocean Animal",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Round" },
+      "Hair": { "Length (Size)": "Long", "Density": "Thick / Dense", "Type": "Wavy / Flowing (Tentacles)" }
+    }
+  },
+  {
+    "name": "Sea Lion",
+    "type": "Ocean Animal",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Long" },
+      "Forehead": { "Height": "Average", "Shape": "Sloped", "Texture": "Smooth" },
+      "Eyes": { "Size": "Large", "Shape": "Round", "Placement": "Proportional", "Color": "Dark (Brown/Black)" },
+      "Nose": { "Length": "Medium / Proportional", "Width": "Medium", "Shape": "Button (Small and rounded)" },
+      "Mouth": { "Shape & Size": "Wide, Downturned" },
+      "Teeth": { "Prominence of Canine Teeth": "Sharp / Prominent" },
+      "Jaw & Chin": { "Jawline Shape": "Rounded", "Chin": "Rounded" },
+      "Hair": { "Length (Size)": "Short", "Density": "Average", "Type": "Sleek / Straight" },
+      "Facial Hair": { "Type": "Mustache" },
+      "Ears (hears)": { "Size": "Small", "Shape": "Pointy (External flaps)" },
+      "Expressive Face": { "Common Expressions": "Engaged / Intense look" },
+      "Cranio-Facial Angle": { "Profile Angle": "Angled / Prominent Profile" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Smooth" }
+    }
+  },
+  {
+    "name": "Walrus",
+    "type": "Ocean Animal",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Square" },
+      "Forehead": { "Height": "Low", "Shape": "Flat", "Texture": "Wrinkled" },
+      "Eyes": { "Size": "Small", "Shape": "Round", "Placement": "Wide-set", "Color": "Dark (Brown/Black)" },
+      "Nose": { "Length": "Short", "Width": "Broad / Wide", "Shape": "Flat" },
+      "Mouth": { "Shape & Size": "Wide, Full Lips" },
+      "Teeth": { "Prominence of Canine Teeth": "Sharp / Prominent (Tusks)" },
+      "Jaw & Chin": { "Jawline Shape": "Strong / Square", "Chin": "Prominent" },
+      "Hair": { "Length (Size)": "Short", "Density": "Thin / Sparse", "Type": "Wiry / Coarse" },
+      "Facial Hair": { "Type": "Mustache" },
+      "Ears (hears)": { "Size": "Small (Internal, not visible)" },
+      "Cranio-Facial Angle": { "Profile Angle": "Flat Profile" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Wrinkled" }
+    }
+  },
+  {
+    "name": "Orca (Killer Whale)",
+    "type": "Ocean Animal",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Round" },
+      "Forehead": { "Height": "High", "Shape": "Rounded / Domed", "Texture": "Smooth" },
+      "Eyes": { "Size": "Small", "Shape": "Round", "Placement": "Wide-set", "Color": "Dark (Brown/Black)" },
+      "Nose": { "Length": "Medium / Proportional", "Width": "Broad / Wide", "Shape": "Button (Small and rounded)" },
+      "Mouth": { "Shape & Size": "Wide, Smile-like appearance" },
+      "Teeth": { "Prominence of Canine Teeth": "Sharp / Prominent" },
+      "Jaw & Chin": { "Jawline Shape": "Rounded", "Chin": "Rounded" },
+      "Hair": { "Length (Size)": "Bald / No Hair" },
+      "Ears (hears)": { "Size": "Small (Internal, not visible)" },
+      "Cranio-Facial Angle": { "Profile Angle": "Average / Proportional Profile" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Smooth" }
+    }
+  },
+  {
+    "name": "Manta Ray",
+    "type": "Ocean Animal",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Square" },
+      "Eyes": { "Size": "Small", "Shape": "Round", "Placement": "Wide-set", "Color": "Dark (Brown/Black)" },
+      "Mouth": { "Shape & Size": "Wide" },
+      "Hair": { "Length (Size)": "Bald / No Hair" },
+      "Cranio-Facial Angle": { "Profile Angle": "Flat Profile" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Smooth" }
+    }
+  },
+  {
+    "name": "Pufferfish",
+    "type": "Ocean Animal",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Round" },
+      "Eyes": { "Size": "Large", "Shape": "Round", "Placement": "Proportional", "Color": "Dark (Brown/Black)" },
+      "Mouth": { "Shape & Size": "Narrow" },
+      "Teeth": { "Prominence of Canine Teeth": "Not Visible (Beak-like)" },
+      "Jaw & Chin": { "Jawline Shape": "Rounded", "Chin": "Receding" },
+      "Hair": { "Length (Size)": "Short", "Type": "Spiky" },
+      "Cranio-Facial Angle": { "Profile Angle": "Flat Profile" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Smooth" }
+    }
+  },
+  {
+    "name": "Anglerfish",
+    "type": "Ocean Animal",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Round" },
+      "Forehead": { "Height": "High", "Shape": "Rounded / Domed" },
+      "Eyes": { "Size": "Small", "Shape": "Round", "Placement": "Proportional", "Color": "Dark (Brown/Black)" },
+      "Mouth": { "Shape & Size": "Wide, Downturned" },
+      "Teeth": { "Prominence of Canine Teeth": "Sharp / Prominent" },
+      "Jaw & Chin": { "Jawline Shape": "Rounded", "Chin": "Prominent" },
+      "Overall Jaw/Mouth Appearance": { "Bite": "Underbite" },
+      "Hair": { "Length (Size)": "Bald / No Hair" },
+      "Cranio-Facial Angle": { "Profile Angle": "Flat Profile" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Smooth" }
+    }
+  },
+  {
+    "name": "Hammerhead Shark",
+    "type": "Ocean Animal",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Square" },
+      "Forehead": { "Height": "Low", "Shape": "Flat", "Texture": "Smooth" },
+      "Eyes": { "Size": "Small", "Shape": "Round", "Placement": "Wide-set", "Color": "Amber/Gold" },
+      "Mouth": { "Shape & Size": "Wide, Downturned" },
+      "Teeth": { "Prominence of Canine Teeth": "Sharp / Prominent" },
+      "Hair": { "Length (Size)": "Bald / No Hair" },
+      "Cranio-Facial Angle": { "Profile Angle": "Flat Profile" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Smooth" }
+    }
+  },
+  {
+    "name": "Sea Otter",
+    "type": "Ocean Animal",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Round" },
+      "Forehead": { "Height": "Average", "Shape": "Rounded / Domed", "Texture": "Smooth (under fur)" },
+      "Eyes": { "Size": "Small", "Shape": "Round", "Placement": "Proportional", "Color": "Dark (Brown/Black)" },
+      "Nose": { "Length": "Short", "Width": "Medium", "Shape": "Button (Small and rounded)" },
+      "Cheeks & Cheekbones": { "Cheeks": "Full / Round" },
+      "Mouth": { "Shape & Size": "Wide, Smile-like appearance" },
+      "Teeth": { "Prominence of Canine Teeth": "Not Visible" },
+      "Jaw & Chin": { "Jawline Shape": "Rounded", "Chin": "Rounded" },
+      "Hair": { "Length (Size)": "Short", "Density": "Thick / Dense", "Type": "Curly / Fluffy" },
+      "Facial Hair": { "Type": "Mustache" },
+      "Ears (hears)": { "Size": "Small", "Shape": "Rounded" },
+      "Expressive Face": { "Common Expressions": "Engaged / Intense look" },
+      "Cranio-Facial Angle": { "Profile Angle": "Average / Proportional Profile" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Smooth" }
+    }
+  },
+  {
+    "name": "Manatee",
+    "type": "Ocean Animal",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Round" },
+      "Forehead": { "Height": "Low", "Shape": "Sloped", "Texture": "Wrinkled" },
+      "Eyes": { "Size": "Small", "Shape": "Round", "Placement": "Wide-set", "Color": "Dark (Brown/Black)" },
+      "Nose": { "Length": "Short", "Width": "Broad / Wide", "Shape": "Flat" },
+      "Mouth": { "Shape & Size": "Wide, Full Lips, Downturned" },
+      "Teeth": { "Prominence of Canine Teeth": "Not Visible" },
+      "Jaw & Chin": { "Jawline Shape": "Rounded", "Chin": "Receding" },
+      "Hair": { "Length (Size)": "Short", "Density": "Thin / Sparse", "Type": "Wiry / Coarse" },
+      "Facial Hair": { "Type": "Mustache" },
+      "Ears (hears)": { "Size": "Small (Internal, not visible)" },
+      "Cranio-Facial Angle": { "Profile Angle": "Flat Profile" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Wrinkled" }
+    }
+  },
+  {
+    "name": "Stegosaurus",
+    "type": "Dinosaur",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Long" },
+      "Forehead": { "Height": "Low", "Shape": "Sloped", "Texture": "Smooth (Scaly)" },
+      "Eyes": { "Size": "Small", "Shape": "Round", "Placement": "Wide-set", "Color": "Dark (Brown/Black)" },
+      "Nose": { "Length": "Short", "Width": "Narrow / Slender", "Shape": "Aquiline / Hooked (Beak)" },
+      "Mouth": { "Shape & Size": "Narrow (Beak)" },
+      "Teeth": { "Prominence of Canine Teeth": "Not Visible" },
+      "Jaw & Chin": { "Jawline Shape": "Rounded", "Chin": "Receding" },
+      "Hair": { "Length (Size)": "Bald / No Hair (Scaly)" },
+      "Ears (hears)": { "Size": "Small (Internal, not visible)" },
+      "Cranio-Facial Angle": { "Profile Angle": "Angled / Prominent Profile" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Smooth (Scaly)" }
+    }
+  },
+  {
+    "name": "Ankylosaurus",
+    "type": "Dinosaur",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Square" },
+      "Forehead": { "Height": "Low", "Shape": "Flat", "Texture": "Wrinkled (Armored)" },
+      "Eyes": { "Size": "Small", "Shape": "Round", "Placement": "Wide-set", "Color": "Dark (Brown/Black)" },
+      "Nose": { "Length": "Short", "Width": "Broad / Wide", "Shape": "Flat" },
+      "Mouth": { "Shape & Size": "Wide (Beak)" },
+      "Teeth": { "Prominence of Canine Teeth": "Not Visible" },
+      "Jaw & Chin": { "Jawline Shape": "Strong / Square", "Chin": "Receding" },
+      "Hair": { "Length (Size)": "Bald / No Hair (Armored)" },
+      "Ears (hears)": { "Size": "Small (Internal, not visible)" },
+      "Cranio-Facial Angle": { "Profile Angle": "Flat Profile" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Wrinkled (Bony plates)" }
+    }
+  },
+  {
+    "name": "Velociraptor",
+    "type": "Dinosaur",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Long" },
+      "Forehead": { "Height": "Low", "Shape": "Sloped", "Texture": "Smooth (Feathered)" },
+      "Eyes": { "Size": "Large", "Shape": "Round", "Placement": "Proportional", "Color": "Amber/Gold" },
+      "Nose": { "Length": "Long", "Width": "Narrow / Slender", "Shape": "Straight" },
+      "Mouth": { "Shape & Size": "Wide, Thin Lips" },
+      "Teeth": { "Prominence of Canine Teeth": "Sharp / Prominent" },
+      "Jaw & Chin": { "Jawline Shape": "Defined / V-shaped", "Chin": "Prominent" },
+      "Hair": { "Length (Size)": "Medium", "Density": "Average", "Type": "Wavy / Flowing (Feathers)" },
+      "Ears (hears)": { "Size": "Small (Internal, not visible)" },
+      "Cranio-Facial Angle": { "Profile Angle": "Angled / Prominent Profile" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Smooth (Feathered)" }
+    }
+  },
+  {
+    "name": "Brachiosaurus",
+    "type": "Dinosaur",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Round" },
+      "Forehead": { "Height": "High", "Shape": "Rounded / Domed", "Texture": "Smooth (Scaly)" },
+      "Eyes": { "Size": "Medium / Proportional", "Shape": "Round", "Placement": "Wide-set", "Color": "Dark (Brown/Black)" },
+      "Nose": { "Length": "Short", "Width": "Broad / Wide", "Shape": "Flat" },
+      "Mouth": { "Shape & Size": "Wide, Thin Lips" },
+      "Teeth": { "Prominence of Canine Teeth": "Not Visible" },
+      "Jaw & Chin": { "Jawline Shape": "Rounded", "Chin": "Receding" },
+      "Hair": { "Length (Size)": "Bald / No Hair (Scaly)" },
+      "Ears (hears)": { "Size": "Small (Internal, not visible)" },
+      "Cranio-Facial Angle": { "Profile Angle": "Average / Proportional Profile" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Smooth (Scaly)" }
+    }
+  },
+  {
+    "name": "Pachycephalosaurus",
+    "type": "Dinosaur",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Round" },
+      "Forehead": { "Height": "High", "Shape": "Rounded / Domed", "Texture": "Smooth (Bony)" },
+      "Eyes": { "Size": "Large", "Shape": "Round", "Placement": "Proportional", "Color": "Amber/Gold" },
+      "Nose": { "Length": "Short", "Width": "Medium", "Shape": "Aquiline / Hooked (Beak)" },
+      "Mouth": { "Shape & Size": "Narrow (Beak)" },
+      "Teeth": { "Prominence of Canine Teeth": "Not Visible" },
+      "Jaw & Chin": { "Jawline Shape": "Rounded", "Chin": "Receding" },
+      "Hair": { "Length (Size)": "Bald / No Hair (Scaly)" },
+      "Ears (hears)": { "Size": "Small (Internal, not visible)" },
+      "Cranio-Facial Angle": { "Profile Angle": "Flat Profile" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Smooth (Bony)" }
+    }
+  },
+  {
+    "name": "Spinosaurus",
+    "type": "Dinosaur",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Long" },
+      "Forehead": { "Height": "Low", "Shape": "Sloped", "Texture": "Smooth (Scaly)" },
+      "Eyes": { "Size": "Small", "Shape": "Round", "Placement": "Proportional", "Color": "Amber/Gold" },
+      "Nose": { "Length": "Long", "Width": "Narrow / Slender", "Shape": "Straight" },
+      "Mouth": { "Shape & Size": "Wide, Thin Lips" },
+      "Teeth": { "Prominence of Canine Teeth": "Sharp / Prominent" },
+      "Jaw & Chin": { "Jawline Shape": "Defined / V-shaped", "Chin": "Prominent" },
+      "Hair": { "Length (Size)": "Bald / No Hair (Scaly)" },
+      "Ears (hears)": { "Size": "Small (Internal, not visible)" },
+      "Cranio-Facial Angle": { "Profile Angle": "Angled / Prominent Profile" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Smooth (Scaly)" }
+    }
+  },
+  {
+    "name": "Parasaurolophus",
+    "type": "Dinosaur",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Long" },
+      "Forehead": { "Height": "High", "Shape": "Sloped", "Texture": "Smooth (Scaly)" },
+      "Eyes": { "Size": "Medium / Proportional", "Shape": "Round", "Placement": "Wide-set", "Color": "Dark (Brown/Black)" },
+      "Nose": { "Length": "Long", "Width": "Broad / Wide", "Shape": "Flat (Duck-bill)" },
+      "Mouth": { "Shape & Size": "Wide (Beak)" },
+      "Teeth": { "Prominence of Canine Teeth": "Not Visible (Dental batteries)" },
+      "Jaw & Chin": { "Jawline Shape": "Rounded", "Chin": "Receding" },
+      "Hair": { "Length (Size)": "Bald / No Hair (Scaly)" },
+      "Ears (hears)": { "Size": "Small (Internal, not visible)" },
+      "Cranio-Facial Angle": { "Profile Angle": "Angled / Prominent Profile" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Smooth (Scaly)" }
+    }
+  },
+  {
+    "name": "Allosaurus",
+    "type": "Dinosaur",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Long" },
+      "Forehead": { "Height": "Average", "Shape": "Sloped", "Texture": "Smooth (Scaly)" },
+      "Eyes": { "Size": "Medium / Proportional", "Shape": "Round", "Placement": "Proportional", "Color": "Amber/Gold" },
+      "Nose": { "Length": "Long", "Width": "Broad / Wide", "Shape": "Straight" },
+      "Mouth": { "Shape & Size": "Wide, Thin Lips" },
+      "Teeth": { "Prominence of Canine Teeth": "Sharp / Prominent" },
+      "Jaw & Chin": { "Jawline Shape": "Strong / Square", "Chin": "Prominent" },
+      "Hair": { "Length (Size)": "Bald / No Hair (Scaly)" },
+      "Ears (hears)": { "Size": "Small (Internal, not visible)" },
+      "Cranio-Facial Angle": { "Profile Angle": "Angled / Prominent Profile" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Smooth (Scaly)" }
+    }
+  },
+  {
+    "name": "Dilophosaurus",
+    "type": "Dinosaur",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Long" },
+      "Forehead": { "Height": "Average", "Shape": "Sloped", "Texture": "Smooth (Scaly)" },
+      "Eyes": { "Size": "Medium / Proportional", "Shape": "Round", "Placement": "Proportional", "Color": "Amber/Gold" },
+      "Nose": { "Length": "Long", "Width": "Narrow / Slender", "Shape": "Straight" },
+      "Mouth": { "Shape & Size": "Wide, Thin Lips" },
+      "Teeth": { "Prominence of Canine Teeth": "Sharp / Prominent" },
+      "Jaw & Chin": { "Jawline Shape": "Defined / V-shaped", "Chin": "Prominent" },
+      "Hair": { "Length (Size)": "Bald / No Hair (Scaly)" },
+      "Ears (hears)": { "Size": "Small (Internal, not visible)" },
+      "Cranio-Facial Angle": { "Profile Angle": "Angled / Prominent Profile" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Smooth (Scaly)" }
+    }
+  },
+  {
+    "name": "Archaeopteryx",
+    "type": "Dinosaur",
+    "photo_credit": "",
+    "features": {
+      "Face/Head Shape": { "Shape": "Long" },
+      "Forehead": { "Height": "Low", "Shape": "Sloped", "Texture": "Smooth (Feathered)" },
+      "Eyes": { "Size": "Large", "Shape": "Round", "Placement": "Proportional", "Color": "Dark (Brown/Black)" },
+      "Nose": { "Length": "Long", "Width": "Narrow / Slender", "Shape": "Aquiline / Hooked (Beak)" },
+      "Mouth": { "Shape & Size": "Narrow (Beak)" },
+      "Teeth": { "Prominence of Canine Teeth": "Sharp / Prominent" },
+      "Jaw & Chin": { "Jawline Shape": "Defined / V-shaped", "Chin": "Receding" },
+      "Hair": { "Length (Size)": "Long", "Density": "Thick / Dense", "Type": "Wavy / Flowing (Feathers)" },
+      "Ears (hears)": { "Size": "Small (Internal, not visible)" },
+      "Cranio-Facial Angle": { "Profile Angle": "Angled / Prominent Profile" },
+      "Facial Texture / Skin Markings": { "Lines/Wrinkles": "Smooth (Feathered)" }
+    }
+  }
+]

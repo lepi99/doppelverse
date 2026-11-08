@@ -1,0 +1,227 @@
+[
+    {    "name": "Keanu Reeves",
+    "type": "Human",
+    "photo": "/images/humans/keanu_reeves.jpg",
+    "photo_credit": "",
+    "features": {
+  "Face/Head Shape": {
+    "Shape": [
+      "Long",
+      "Oval"
+    ]
+  },
+  "Forehead": {
+    "Height": [
+      "Average",
+      "High"
+    ],
+    "Shape": [
+      "Rounded / Domed"
+    ],
+    "Texture": [
+      "Wrinkled"
+    ]
+  },
+  "Eyes": {
+    "Size": [
+      "Medium / Proportional"
+    ],
+    "Shape": [
+      "Almond-shaped",
+      "Deep-set"
+    ],
+    "Placement": [
+      "Proportional"
+    ],
+    "Color": [
+      "Dark (Brown/Black)"
+    ]
+  },
+  "Eyelashes": {
+    "Length (Size)": [
+      "Average"
+    ],
+    "Density (Sparse/Normal/Full)": [
+      "Normal / Average"
+    ],
+    "Curl": [
+      "Straight"
+    ]
+  },
+  "Nose": {
+    "Length": [
+      "Medium / Proportional"
+    ],
+    "Width": [
+      "Narrow / Slender"
+    ],
+    "Shape": [
+      "Straight"
+    ]
+  },
+  "Cheeks & Cheekbones": {
+    "Cheeks": [
+      "Full / Round"
+    ],
+    "Cheekbones": [
+      "Defined / High"
+    ]
+  },
+  "Mouth": {
+    "Shape & Size": [
+      "Wide",
+      "Thin Lips"
+    ]
+  },
+  "Teeth": {
+    "Prominence of Canine Teeth": [
+      "Rounded"
+    ],
+    "Front Teeth Shape/Alignment": [
+      "Straight / Symmetrical",
+      "Square Edges"
+    ],
+    "Teeth Crowding/Spacing": [
+      "Proportional"
+    ]
+  },
+  "Jaw & Chin": {
+    "Jawline Shape": [
+      "Strong / Square",
+      "Defined / V-shaped"
+    ],
+    "Chin": [
+      "Prominent"
+    ]
+  },
+  "Overall Jaw/Mouth Appearance": {
+    "Bite": [
+      "Proportional"
+    ]
+  },
+  "Hair": {
+    "Length (Size)": [
+      "Short",
+      "Medium",
+      "Long"
+    ],
+    "Density": [
+      "Thick / Dense"
+    ],
+    "Type": [
+      "Sleek / Straight",
+      "Wavy / Flowing"
+    ],
+    "Color": [
+      "Black",
+      "Gray / White"
+    ]
+  },
+  "Facial Hair": {
+    "Type": [
+      "Clean-shaven / No Facial Hair",
+      "Stubble",
+      "Beard / Goatee"
+    ]
+  },
+  "Skin & Facial Texture": {
+    "Skin Color": [
+      "Medium"
+    ],
+    "Facial Texture": [
+      "Wrinkled"
+    ]
+  },
+  "Ears (hears)": {
+    "Size": [
+      "Medium"
+    ],
+    "Shape": [
+      "Detached earlobes",
+      "Rounded"
+    ]
+  },
+  "Expressive Face": {
+    "Common Expressions": [
+      "Raised eyebrows",
+      "Engaged / Intense look"
+    ]
+  },
+  "Cranio-Facial Angle": {
+    "Profile Angle": [
+      "Angled / Prominent Profile (similar to dolichocephalic)"
+    ]
+  },
+  "Eyebrows": {
+    "Shape/Arch": [
+      "Straight",
+      "Arched (High/Soft)"
+    ],
+    "Thickness": [
+      "Thick / Bushy"
+    ],
+    "Position": [
+      "Average"
+    ],
+    "Unibrow": [
+      "None"
+    ]
+  },
+  "Lips": {
+    "Fullness": [
+      "Thin"
+    ],
+    "Shape": [
+      "Wide",
+      "Undefined/Soft Cupid's Bow"
+    ]
+  },
+  "Eye Details": {
+    "Eyelids": [
+      "Hooded Eyelid"
+    ],
+    "Epicanthic Fold": [
+      "Absent"
+    ],
+    "Under-eye": [
+      "Puffy / Bags"
+    ]
+  },
+  "Nose Details": {
+    "Nose Bridge": [
+      "High",
+      "Straight"
+    ],
+    "Nose Tip": [
+      "Rounded"
+    ],
+    "Nostrils": [
+      "Narrow"
+    ]
+  },
+  "Chin Details": {
+    "Cleft Chin": [
+      "Absent"
+    ]
+  },
+  "Hairline": {
+    "Shape": [
+      "M-shaped"
+    ],
+    "Receding": [
+      "Slightly Receding"
+    ]
+  },
+  "Facial Texture / Skin Markings": {
+    "Lines/Wrinkles": [
+      "Crow's Feet (around eyes)",
+      "Frown Lines (between eyebrows)",
+      "Smile Lines / Nasolabial Folds"
+    ],
+    "Other Markings": [
+      "Moles"
+    ]
+  }
+}   
+    }
+]
